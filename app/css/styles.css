@@ -142,7 +142,6 @@ main { padding: .5rem 1rem 2rem; outline: none; }
 .cell.today { border-color: var(--primary-strong); box-shadow: 0 0 0 2px var(--primary-strong) inset, var(--shadow); }
 .cell.selected { outline: 3px solid var(--focus); outline-offset: 1px; }
 .cell .num { font-weight: 700; font-size: 1.1rem; display: flex; justify-content: space-between; align-items: baseline; gap: .25rem; }
-.cell .hdate { font-size: .7rem; font-weight: 400; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .cell .icons { display: flex; flex-wrap: wrap; gap: .15rem; font-size: 1.05rem; line-height: 1.1; }
 .cell .label { font-size: .78rem; color: var(--text); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .cell .meta { display: flex; gap: .3rem; align-items: center; font-size: .8rem; color: var(--muted); margin-top: auto; }
@@ -251,7 +250,7 @@ input[type="checkbox"] { width: 1.3rem; height: 1.3rem; accent-color: var(--prim
 @media (max-width: 640px) {
   .month { gap: 3px; }
   .cell { min-height: 78px; padding: .25rem; border-radius: 8px; }
-  .cell .label, .cell .hdate { display: none; }
+  .cell .label { display: none; }
   .cell .icons { font-size: .9rem; }
   .cell .num { font-size: .95rem; }
   .views button { padding: .35rem .55rem; }

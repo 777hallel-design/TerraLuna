@@ -47,7 +47,7 @@ export function buildICS(model, o) {
     event(`tl-${p.element}-${p.start}`, p.start, p.end,
       `${ELEMENTS[p.element].icon} ${t.dayType[p.element]} · ${GLYPHS[p.sign]} ${t.signs[p.sign]}`,
       [`${t.moonIn(t.signs[p.sign])} (${t.element[p.element]})`, '', `${t.summary.sow}: ${g.sow}`,
-        `${t.summary.harvest}: ${g.harvest}`, `${t.summary.care}: ${g.care}`].join('\n'));
+        `${t.summary.harvest}: ${g.harvest}`].join('\n'));
   }
   if (o.unfavorable !== false) {
     for (const w of model.unfavorable) {

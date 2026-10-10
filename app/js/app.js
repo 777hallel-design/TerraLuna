@@ -16,7 +16,7 @@ const store = {
 const browserTz = (() => { try { return Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC'; } catch { return 'UTC'; } })();
 const DEFAULTS = {
   lang: 'he', tz: browserTz, weekStart: null, hemisphere: 'north', theme: 'auto', scale: 1,
-  contrast: false, motion: false, patterns: false, hebrewDate: true,
+  contrast: false, motion: false, patterns: false,
   nodeHours: C.DEFAULT_OPTIONS.nodeHours, perigeeHours: C.DEFAULT_OPTIONS.perigeeHours,
   eclipseHours: C.DEFAULT_OPTIONS.eclipseHours, myCrops: [],
 };
@@ -42,9 +42,6 @@ function fmtTime(unix) {
 const keyDate = (key) => { const { y, m, d } = C.parseKey(key); return new Date(Date.UTC(y, m - 1, d, 12)); };
 function fmtKey(key, opts) {
   return new Intl.DateTimeFormat(locale(), { timeZone: 'UTC', ...opts }).format(keyDate(key));
-}
-function hebrewDate(key) {
-  try { return new Intl.DateTimeFormat(`${settings.lang === 'he' ? 'he-IL' : 'en-GB'}-u-ca-hebrew`, { timeZone: 'UTC', day: 'numeric', month: 'long' }).format(keyDate(key)); } catch { return ''; }
 }
 /** "13:43", or "Tue 13:43" when the time is on another day than `key`. */
 function fmtTimeOn(unix, key) {
@@ -219,7 +216,7 @@ function dayCell(key, { other, today }) {
   const mine = myCropsFor(info).length ? '<span class="mine" aria-hidden="true">🌱</span>' : '';
   const cls = ['cell', `el-${info.mainElement || 'none'}`, other && 'other', today && 'today', key === state.date && 'selected', info.fullyUnfavorable && 'unf-all'].filter(Boolean).join(' ');
   return `<button type="button" class="${cls}" data-key="${key}" tabindex="${key === state.date ? 0 : -1}" aria-label="${esc(dayLabel(info))}"${today ? ' aria-current="date"' : ''}>
-    <span class="num"><span>${n}</span>${settings.hebrewDate ? `<span class="hdate">${esc(hebrewDate(key))}</span>` : ''}</span>
+    <span class="num"><span>${n}</span></span>
     <span class="icons">${icons}</span>
     <span class="label">${esc(label)}</span>
     ${segBar(info)}
@@ -351,8 +348,7 @@ function dayDetail(key, inDialog) {
   const el = info.mainElement;
   const headId = inDialog ? 'day-title' : 'day-view-title';
   const types = info.elements.map((e) => tt.dayType[e]).join(settings.lang === 'he' ? ' ← ' : ' → ');
-  let html = `<div class="sheet-head"><div><h2 id="${headId}">${esc(fmtKey(key, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }))}</h2>
-    ${settings.hebrewDate ? `<p class="muted">${esc(hebrewDate(key))}</p>` : ''}</div>
+  let html = `<div class="sheet-head"><div><h2 id="${headId}">${esc(fmtKey(key, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }))}</h2></div>
     ${inDialog ? `<button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button>` : ''}</div>`;
 
   html += `<section class="day-hero el-${el}" aria-labelledby="${headId}-sum">
@@ -377,7 +373,7 @@ function dayDetail(key, inDialog) {
     const g = tt.guidance[e];
     const crops = CROPS.filter((c) => c.element === e);
     html += `<section class="day-card el-${e}" style="border-top:6px solid var(--c)"><h3>${icon(e)} ${tt.dayType[e]} · ${tt.element[e]}</h3>
-      <p><b>${tt.summary.sow}:</b> ${g.sow}</p><p><b>${tt.summary.harvest}:</b> ${g.harvest}</p><p><b>${tt.summary.care}:</b> ${g.care}</p>
+      <p><b>${tt.summary.sow}:</b> ${g.sow}</p><p><b>${tt.summary.harvest}:</b> ${g.harvest}</p>
       <b>${tt.summary.crops}:</b><ul class="chips">${crops.map((c) => `<li class="chip${settings.myCrops.includes(c.id) ? ' mine' : ''}">${esc(c.name[settings.lang])}</li>`).join('')}</ul></section>`;
   }
 
@@ -386,7 +382,6 @@ function dayDetail(key, inDialog) {
   if (['new', 'full'].includes(info.moon.name) || info.phaseEvents.some((p) => ['new', 'full'].includes(p.phase))) {
     notes.push(tt.guidance.phase[info.phaseEvents.find((p) => ['new', 'full'].includes(p.phase))?.phase || info.moon.name]);
   } else notes.push(tt.guidance.phase[info.moon.waxing ? 'waxing' : 'waning']);
-  if (info.apsides.some((a) => a.type === 'apogee')) notes.push(tt.guidance.apogee);
   const events = dayEvents(info);
   html += `<section class="day-card"><h3>${tt.summary.moon}</h3>${notes.map((n) => `<p>${n}</p>`).join('')}
     ${events.length ? `<h4>${tt.summary.events}</h4><dl class="facts">${events.map((e) => `<dt>${fmtTime(e.t)}</dt><dd>${e.icon} ${esc(e.text)}</dd>`).join('')}</dl>` : ''}</section>`;
@@ -470,6 +465,8 @@ function renderFinder() {
   const tt = t();
   const body = $('#finder-body');
   const sel = store.get('finder', { crop: settings.myCrops[0] || 'carrot', action: 'sow', days: 60 });
+  if (!tt.actions[sel.action]) sel.action = 'sow';
+  if (!CROPS.some((c) => c.id === sel.crop)) sel.crop = 'carrot';
   const groups = Object.keys(C.ELEMENTS).map((e) => `<optgroup label="${icon(e)} ${tt.part[e]}">${CROPS.filter((c) => c.element === e)
     .map((c) => `<option value="${c.id}"${c.id === sel.crop ? ' selected' : ''}>${esc(c.name[settings.lang])}</option>`).join('')}</optgroup>`).join('');
   body.innerHTML = `<div class="sheet-head"><h2 id="finder-title">${tt.finderTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button></div>
@@ -487,8 +484,8 @@ function renderFinder() {
     const a = Math.max(now(), C.dayRange(todayKey(), settings.tz)[0]);
     const b = a + days * 86400;
     await ensureYears(yearOf(todayKey()), new Date(b * 1000).getUTCFullYear());
-    const preferAsc = action === 'harvest' ? crop.element !== 'earth' : action === 'transplant' ? false : null;
-    $('#f-note').textContent = action === 'transplant' ? tt.finderNoteTransplant : action === 'harvest' ? (crop.element === 'earth' ? tt.finderNoteHarvestRoot : tt.finderNoteHarvest) : '';
+    const preferAsc = action === 'harvest' ? crop.element !== 'earth' : null;
+    $('#f-note').textContent = action === 'harvest' ? (crop.element === 'earth' ? tt.finderNoteHarvestRoot : tt.finderNoteHarvest) : '';
     const wins = C.findWindows(state.model, a, b, crop.element, { minHours: 2 });
     $('#f-out').innerHTML = wins.length ? wins.map((w) => {
       const best = preferAsc != null && w.ascending === preferAsc;
@@ -599,7 +596,7 @@ function renderSettings() {
     <label class="field">${s.theme}<select data-set="theme">${opt('auto', s.themeAuto, settings.theme)}${opt('light', s.themeLight, settings.theme)}${opt('dark', s.themeDark, settings.theme)}</select></label>
     <label class="field">${s.textSize}<span class="row"><button type="button" class="btn small" data-scale="-1" aria-label="${s.textSize} −">A−</button>
       <output id="scale-out">${Math.round(settings.scale * 100)}%</output><button type="button" class="btn small" data-scale="1" aria-label="${s.textSize} +">A+</button></span></label>
-    ${check('contrast', s.contrast)}${check('motion', s.motion)}${check('patterns', s.patterns)}${check('hebrewDate', s.hebrewDate)}
+    ${check('contrast', s.contrast)}${check('motion', s.motion)}${check('patterns', s.patterns)}
   </fieldset>
   <fieldset><legend>${tt.myCrops}</legend><p class="muted">${tt.myCropsHint}</p>
     ${Object.keys(C.ELEMENTS).map((e) => `<h4>${icon(e)} ${tt.part[e]}</h4><div class="crop-pick">${CROPS.filter((c) => c.element === e).map((c) =>
