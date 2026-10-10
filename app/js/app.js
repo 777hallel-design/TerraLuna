@@ -676,7 +676,7 @@ function renderGuide() {
   const body = $('#guide-body');
   const meta = state.model?.meta || { ephemeris: 'Swiss Ephemeris', ayanamsa: 'lahiri' };
   body.innerHTML = `<div class="sheet-head"><h2 id="guide-title">${tt.guideTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button></div>
-    ${tt.guideBody.map((p) => `<p>${esc(p)}</p>`).join('')}<p class="muted"><small>${esc(tt.set.about(meta))}</small></p>`;
+    <p><b>${esc(tt.zodiacBadge)}</b><br>${esc(tt.zodiacNote)}</p>${tt.guideBody.map((p) => `<p>${esc(p)}</p>`).join('')}<p class="muted"><small>${esc(tt.set.about(meta))}</small></p>`;
   body.querySelector('[data-close]').addEventListener('click', () => $('#dlg-guide').close());
 }
 
@@ -696,7 +696,8 @@ function applySettings() {
   document.querySelectorAll('[data-t]').forEach((el) => { el.textContent = tt[el.dataset.t]; });
   document.querySelectorAll('[data-view]').forEach((b) => { b.textContent = tt.views[b.dataset.view]; });
   $('#legend').innerHTML = Object.keys(C.ELEMENTS).map((e) => `<span><i class="swatch el-${e}"></i>${icon(e)} ${tt.part[e]} (${tt.element[e]})</span>`).join('')
-    + `<span><i class="swatch unf"></i>⚠️ ${tt.unfavorable}</span><span>${arrow(true)} ${tt.ascending}</span><span>${arrow(false)} ${tt.descending}</span>`;
+    + `<span><i class="swatch unf"></i>⚠️ ${tt.unfavorable}</span><span>${arrow(true)} ${tt.ascending}</span><span>${arrow(false)} ${tt.descending}</span>`
+    + `<span><b title="${esc(tt.zodiacNote)}">${tt.zodiacBadge}</b></span>`;
 }
 
 function title() {

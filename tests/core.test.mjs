@@ -50,3 +50,9 @@ test('windows never overlap unfavourable times', () => {
   assert.ok(w.length > 3);
   for (const x of w) for (const u of model.unfavorable) assert.ok(x.end <= u.start || x.start >= u.end);
 });
+
+test('zodiac is sidereal, not tropical', () => {
+  assert.equal(model.meta.zodiac, 'sidereal-equal-30');
+  // 10 Oct 2026 12:00 UT: tropical Libra 15°, sidereal (Lahiri) Virgo 21°
+  assert.equal(SIGNS[signAt(model, utc('2026-10-10T12:00Z')).sign], 'virgo');
+});

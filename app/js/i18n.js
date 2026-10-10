@@ -182,6 +182,8 @@ const he = {
     about: (m) => `חישובים: ${m.ephemeris}, גלגל מזלות סידריאלי (מזלות שווים של 30°), אייאנמשה ${m.ayanamsa}.`,
   },
   guideTitle: 'איך משתמשים בלוח',
+  zodiacBadge: '✦ גלגל מזלות סידריאלי (אסטרונומי)',
+  zodiacNote: 'הלוח מחושב לפי גלגל המזלות הסידריאלי, האסטרונומי, כלומר לפי מיקום הכוכבים בשמיים בפועל, ולא לפי החלוקה הטרופית האסטרולוגית. בגלל נקיפת נקודות השוויון (פרצסיה), יש היום הפרש של כ־24° בין שתי השיטות. לכן הירח נמצא בדרך כלל במזל אחד מוקדם יותר ממה שמופיע בלוחות אסטרולוגיים רגילים. לדוגמה, ב־10.10.2026 בצהריים הירח בבתולה הסידריאלית, בעוד שבחלוקה הטרופית הוא במאזניים.',
   guideBody: [
     'הירח עובר דרך כל 12 המזלות בכ־27 ימים. כל מזל שייך לאחד מארבעת היסודות, וכל יסוד קשור לחלק אחר של הצמח:',
     '🥕 אדמה (שור, בתולה, גדי) – ימי שורש. 🥬 מים (סרטן, עקרב, דגים) – ימי עלה. 🌼 אוויר (תאומים, מאזניים, דלי) – ימי פרח. 🍅 אש (טלה, אריה, קשת) – ימי פרי.',
@@ -338,6 +340,8 @@ const en = {
     about: (m) => `Computed with ${m.ephemeris}, sidereal zodiac (equal 30° signs), ${m.ayanamsa} ayanamsa.`,
   },
   guideTitle: 'How to use the calendar',
+  zodiacBadge: '✦ Sidereal (astronomical) zodiac',
+  zodiacNote: 'This calendar uses the sidereal, astronomical zodiac, which follows where the stars actually are in the sky, not the tropical, astrological one. Because of the precession of the equinoxes the two now differ by about 24°, so the moon is usually one sign earlier than in ordinary astrological calendars. For example, at noon on 10 Oct 2026 the moon is in sidereal Virgo, but in tropical Libra.',
   guideBody: [
     'The moon passes through all 12 signs in about 27 days. Each sign belongs to one of four elements, and each element is linked to a part of the plant:',
     '🥕 Earth (Taurus, Virgo, Capricorn) – root days. 🥬 Water (Cancer, Scorpio, Pisces) – leaf days. 🌼 Air (Gemini, Libra, Aquarius) – flower days. 🍅 Fire (Aries, Leo, Sagittarius) – fruit days.',
