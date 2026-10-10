@@ -1,0 +1,15 @@
+{
+  "name": "TerraLuna – לוח זריעה ביודינמי",
+  "short_name": "TerraLuna",
+  "description": "Biodynamic sowing and harvesting calendar",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "he",
+  "background_color": "#f4f0e4",
+  "theme_color": "#4f6b3a",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

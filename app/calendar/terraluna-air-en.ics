@@ -1,0 +1,3859 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TerraLuna//Biodynamic calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TerraLuna – Biodynamic sowing calendar
+X-WR-CALDESC:Biodynamic sowing calendar
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:tl-air-1735881465@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250103T051745Z
+DTEND:20250105T090459Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1736619913@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250111T182513Z
+DTEND:20250113T224931Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1737434014@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250121T043334Z
+DTEND:20250123T170241Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1738242308@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250130T130508Z
+DTEND:20250201T152837Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1738975884@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250208T005124Z
+DTEND:20250210T062645Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1739795559@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250217T123239Z
+DTEND:20250220T011943Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1740611223@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250226T230703Z
+DTEND:20250301T002801Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1741328110@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250307T061510Z
+DTEND:20250309T121553Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1742154326@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250316T194526Z
+DTEND:20250319T083650Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1742982280@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250326T094440Z
+DTEND:20250328T111749Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1743684719@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250403T125159Z
+DTEND:20250405T175519Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1744510141@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250413T020901Z
+DTEND:20250415T145713Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1745348481@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250422T190121Z
+DTEND:20250424T215546Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1746049494@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250430T214454Z
+DTEND:20250503T010705Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1746864739@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250510T081219Z
+DTEND:20250512T205729Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1747706740@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250520T020540Z
+DTEND:20250522T063826Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1748419602@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250528T080642Z
+DTEND:20250530T101225Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1749220604@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250606T143644Z
+DTEND:20250609T032037Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1750059599@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250616T073959Z
+DTEND:20250618T130521Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1750788945@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250624T181545Z
+DTEND:20250626T200955Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1751579359@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250703T214919Z
+DTEND:20250706T103100Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1752413017@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250713T132337Z
+DTEND:20250715T182809Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1753152306@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250722T024506Z
+DTEND:20250724T052916Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1753940729@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250731T054529Z
+DTEND:20250802T182244Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1754772078@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250809T204118Z
+DTEND:20250812T004032Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1755508231@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250818T091031Z
+DTEND:20250820T130530Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1756302690@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250827T135130Z
+DTEND:20250830T022315Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1757137893@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250906T055133Z
+DTEND:20250908T085920Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1757860419@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250914T143339Z
+DTEND:20250916T185844Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1758662772@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250923T212612Z
+DTEND:20250926T095354Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1759507064@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251003T155744Z
+DTEND:20251005T191536Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1760216074@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251011T205434Z
+DTEND:20251014T002906Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1761019579@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251021T040619Z
+DTEND:20251023T163603Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1761873511@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251031T011831Z
+DTEND:20251102T055711Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1762580670@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251108T054430Z
+DTEND:20251110T073313Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1763373907@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251117T100507Z
+DTEND:20251119T224406Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1764232650@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251127T083730Z
+DTEND:20251129T150340Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1764953135@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251205T164535Z
+DTEND:20251207T170836Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1765728702@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251214T161142Z
+DTEND:20251217T045631Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1766585793@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251224T141633Z
+DTEND:20251226T214047Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1767326161@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260102T035601Z
+DTEND:20260104T041312Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1768087363@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260110T232243Z
+DTEND:20260113T115123Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1768939536@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260120T200536Z
+DTEND:20260123T030348Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1769691671@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260129T130111Z
+DTEND:20260131T143118Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1770450722@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260207T075202Z
+DTEND:20260209T194120Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1771299354@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260217T033554Z
+DTEND:20260219T093011Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1772047494@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260225T192454Z
+DTEND:20260227T222236Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1772815732@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260306T164852Z
+DTEND:20260309T035958Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1773665069@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260316T124429Z
+DTEND:20260318T180615Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1774399646@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260325T004726Z
+DTEND:20260327T040609Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1775177934@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260403T005854Z
+DTEND:20260405T115807Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1776032093@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260412T221453Z
+DTEND:20260415T040743Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1776756660@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260421T073100Z
+DTEND:20260423T094327Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1777535062@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260430T074422Z
+DTEND:20260502T190005Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1778395383@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260510T064303Z
+DTEND:20260512T135505Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1779122100@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260518T163500Z
+DTEND:20260520T170859Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1779888610@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260527T133010Z
+DTEND:20260530T010900Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1780752838@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260606T133358Z
+DTEND:20260608T220642Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1781493058@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260615T031058Z
+DTEND:20260617T024330Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1782242584@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260623T192304Z
+DTEND:20260626T070320Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1783106319@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260703T191839Z
+DTEND:20260706T042736Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1783863397@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260712T133637Z
+DTEND:20260714T131902Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1784600682@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260721T022442Z
+DTEND:20260723T133117Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1785460097@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260731T010817Z
+DTEND:20260802T095700Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1786227550@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260808T221910Z
+DTEND:20260810T231338Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1786963779@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260817T104939Z
+DTEND:20260819T210030Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1787817946@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260827T080546Z
+DTEND:20260829T160749Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1788583713@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260905T044833Z
+DTEND:20260907T070845Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1789329398@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260913T195638Z
+DTEND:20260916T051918Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1790180830@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260923T162710Z
+DTEND:20260926T000313Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1790935841@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261002T101041Z
+DTEND:20261004T130202Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1791693256@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261011T043416Z
+DTEND:20261013T134236Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1792546233@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261021T013033Z
+DTEND:20261023T093405Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1793291807@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261029T163647Z
+DTEND:20261031T183053Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1794051920@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261107T114520Z
+DTEND:20261109T211828Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1794909638@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261117T100038Z
+DTEND:20261119T192006Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1795657274@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261126T014114Z
+DTEND:20261128T015242Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1796405579@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261204T173259Z
+DTEND:20261207T034405Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1797267960@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261214T170600Z
+DTEND:20261217T034314Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1798030566@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261223T125606Z
+DTEND:20261225T120307Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1798759028@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261231T231708Z
+DTEND:20270103T093040Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1799622310@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270110T230510Z
+DTEND:20270113T101019Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1800403718@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270120T000838Z
+DTEND:20270121T234002Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1801118330@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270128T063850Z
+DTEND:20270130T155211Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1801976808@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270207T050648Z
+DTEND:20270209T154707Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1802768704@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270216T090504Z
+DTEND:20270218T101248Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1803484832@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270224T160032Z
+DTEND:20270226T234424Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1804334692@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270306T120452Z
+DTEND:20270308T221024Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1805124102@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270315T152142Z
+DTEND:20270317T180259Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1805853803@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270324T020323Z
+DTEND:20270326T084809Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1806696190@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270402T200310Z
+DTEND:20270405T060212Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1807476271@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270411T204431Z
+DTEND:20270413T234235Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1808218901@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270420T110141Z
+DTEND:20270422T174718Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1809059048@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270430T042408Z
+DTEND:20270502T145336Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1809833190@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270509T032630Z
+DTEND:20270511T052040Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1810577012@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270517T180332Z
+DTEND:20270520T013316Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1811420377@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270527T121937Z
+DTEND:20270529T233910Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1812198043@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270605T122043Z
+DTEND:20270607T125032Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1812930052@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270613T234052Z
+DTEND:20270616T075146Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1813778464@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270623T192104Z
+DTEND:20270626T072231Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1814568226@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270702T224346Z
+DTEND:20270704T223202Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1815283414@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270711T052334Z
+DTEND:20270713T132755Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1816133664@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270721T013424Z
+DTEND:20270723T134915Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1816938000@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270730T090000Z
+DTEND:20270801T091816Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1817642262@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270807T123742Z
+DTEND:20270809T193726Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1818488087@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270817T073447Z
+DTEND:20270819T193530Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1819301814@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270826T173654Z
+DTEND:20270828T192338Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1820007994@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270903T214634Z
+DTEND:20270906T031736Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1820844248@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270913T140408Z
+DTEND:20270916T014350Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1821657761@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270923T000241Z
+DTEND:20270925T032228Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1822377402@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271001T075642Z
+DTEND:20271003T122649Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1823203562@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271010T212602Z
+DTEND:20271013T090135Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1824009880@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271020T052440Z
+DTEND:20271022T091301Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1824744568@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271028T172928Z
+DTEND:20271030T220104Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1825565396@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271107T052956Z
+DTEND:20271109T172726Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1826365981@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271116T115301Z
+DTEND:20271118T144338Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1827104600@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271125T010320Z
+DTEND:20271127T063143Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1827927473@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271204T133753Z
+DTEND:20271207T020939Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1828731140@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271213T205220Z
+DTEND:20271215T221528Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1829457866@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271222T064426Z
+DTEND:20271224T130957Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1830287411@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271231T211011Z
+DTEND:20280103T100429Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1831103097@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280110T074457Z
+DTEND:20280112T083145Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1831811188@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280118T122628Z
+DTEND:20280120T183940Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1832644337@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280128T035217Z
+DTEND:20280130T164744Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1833474124@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280206T182204Z
+DTEND:20280208T195937Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1834172123@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280214T201523Z
+DTEND:20280217T005648Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1834999335@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280224T100215Z
+DTEND:20280226T224943Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1835837288@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280305T024808Z
+DTEND:20280307T061253Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1836541447@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280313T062407Z
+DTEND:20280315T092048Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1837354701@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280322T161821Z
+DTEND:20280325T050149Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1838192110@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280401T085510Z
+DTEND:20280403T134749Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1838913159@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280409T171239Z
+DTEND:20280411T192054Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1839712531@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280418T231531Z
+DTEND:20280421T115858Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1840544439@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280428T142039Z
+DTEND:20280430T192428Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1841280118@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280507T024158Z
+DTEND:20280509T051630Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1842073230@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280516T070030Z
+DTEND:20280518T194246Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1842900908@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280525T205508Z
+DTEND:20280528T010325Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1843638969@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280603T095609Z
+DTEND:20280605T133930Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1844435193@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280612T150633Z
+DTEND:20280615T034522Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1845264140@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280622T052220Z
+DTEND:20280624T082555Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1845991914@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280630T153154Z
+DTEND:20280702T200730Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1846795914@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280709T225154Z
+DTEND:20280712T112749Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1847632037@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280719T150717Z
+DTEND:20280721T175040Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1848345203@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280727T211323Z
+DTEND:20280730T013451Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1849153704@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280806T054824Z
+DTEND:20280808T182411Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1849999642@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280816T004722Z
+DTEND:20280818T041713Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1850704903@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280824T044143Z
+DTEND:20280826T074203Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1851508724@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280902T115844Z
+DTEND:20280905T003834Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1852361972@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280912T085932Z
+DTEND:20280914T140436Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1853072731@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280920T142531Z
+DTEND:20280922T154850Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1853863023@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280929T175703Z
+DTEND:20281002T064229Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1854717449@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281009T151729Z
+DTEND:20281011T214942Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1855444883@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281018T012123Z
+DTEND:20281020T015454Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1856219538@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281027T003218Z
+DTEND:20281029T131619Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1857069919@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281105T204519Z
+DTEND:20281108T033604Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1857814197@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281114T112957Z
+DTEND:20281116T123302Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1858580235@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281123T081715Z
+DTEND:20281125T204317Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1859426089@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281203T031449Z
+DTEND:20281205T091214Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1860174891@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281211T191451Z
+DTEND:20281213T214342Z
+SUMMARY:🌼 Flower day · ♎ Libra
+DESCRIPTION:Moon in Libra (Air)\n\nSowing & planting: Sow and plant crops g
+ rown for their flowers.\nHarvesting: Cut flowers for the vase (they stay f
+ resh and fragrant)\, medicinal flowers for drying and oils.\nOther work: H
+ oe around flowering plants\, work with bees\, spray 501 (horn silica) in t
+ he morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1860944293@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281220T165813Z
+DTEND:20281223T045308Z
+SUMMARY:🌼 Flower day · ♒ Aquarius
+DESCRIPTION:Moon in Aquarius (Air)\n\nSowing & planting: Sow and plant crop
+ s grown for their flowers.\nHarvesting: Cut flowers for the vase (they sta
+ y fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work
+ : Hoe around flowering plants\, work with bees\, spray 501 (horn silica) i
+ n the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-air-1861789673@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281230T114753Z
+DTEND:20290101T164246Z
+SUMMARY:🌼 Flower day · ♊ Gemini
+DESCRIPTION:Moon in Gemini (Air)\n\nSowing & planting: Sow and plant crops 
+ grown for their flowers.\nHarvesting: Cut flowers for the vase (they stay 
+ fresh and fragrant)\, medicinal flowers for drying and oils.\nOther work: 
+ Hoe around flowering plants\, work with bees\, spray 501 (horn silica) in 
+ the morning.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1736084739@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250105T134539Z
+DTEND:20250106T014539Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1736251872@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250107T121112Z
+DTEND:20250108T121112Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1737229692@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250118T194812Z
+DTEND:20250119T074812Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1738420793@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250201T143953Z
+DTEND:20250202T143953Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nAscending node 
+ – the moon crosses the ecliptic going north\n\nAvoid sowing\, planting a
+ nd harvesting now. Routine work such as watering and weeding is fine. A go
+ od time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1739580878@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250215T005438Z
+DTEND:20250215T125438Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1740785932@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250228T233852Z
+DTEND:20250302T091545Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\nP
+ erigee – the moon is closest to the earth\n\nAvoid sowing\, planting and
+  harvesting now. Routine work such as watering and weeding is fine. A good
+  time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1741892327@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250313T185847Z
+DTEND:20250314T194610Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nDescending node – the moon crosses the eclipti
+ c going south\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1743157715@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250328T102835Z
+DTEND:20250328T222835Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1743202047@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250328T224727Z
+DTEND:20250330T172000Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\nPerigee – the moon is closest to the earth\n\n
+ Avoid sowing\, planting and harvesting now. Routine work such as watering 
+ and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1744293411@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250410T135651Z
+DTEND:20250411T015651Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1745526124@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250424T202204Z
+DTEND:20250425T082204Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1745727170@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250427T041250Z
+DTEND:20250428T041250Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1746639894@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250507T174454Z
+DTEND:20250508T054454Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1747879513@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250522T020513Z
+DTEND:20250522T140513Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1748179729@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250525T132849Z
+DTEND:20250526T132849Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1748979191@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250603T193311Z
+DTEND:20250604T073311Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1750218049@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250618T034049Z
+DTEND:20250618T154049Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1750610300@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250622T163820Z
+DTEND:20250623T163820Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1751319903@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250630T214503Z
+DTEND:20250701T094503Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1752554447@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250715T044047Z
+DTEND:20250715T164047Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1752976101@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250720T014821Z
+DTEND:20250721T014821Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1753669831@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250728T023031Z
+DTEND:20250728T143031Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1754902312@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250811T085152Z
+DTEND:20250811T205152Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1755151793@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250814T060953Z
+DTEND:20250815T060953Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1756028509@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250824T094149Z
+DTEND:20250824T214149Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1757225509@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250907T061149Z
+DTEND:20250908T061149Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nAscending node – the moon crosses the ecliptic
+  going north\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1757463636@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250910T002036Z
+DTEND:20250911T002036Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1758388395@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250920T171315Z
+DTEND:20250921T051315Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1758440520@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20250921T074200Z
+DTEND:20250922T074200Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1759634358@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251005T031918Z
+DTEND:20251005T151918Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1759884434@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251008T004714Z
+DTEND:20251009T004714Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1760740435@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251017T223355Z
+DTEND:20251018T103355Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1761997437@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251101T114357Z
+DTEND:20251101T234357Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1762338926@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251105T103526Z
+DTEND:20251106T103526Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1763080737@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251114T003857Z
+DTEND:20251114T123857Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1764343967@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251128T153247Z
+DTEND:20251129T033247Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1764803749@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251203T231549Z
+DTEND:20251204T231549Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1765416860@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251211T013420Z
+DTEND:20251211T133420Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1766678575@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20251225T160255Z
+DTEND:20251226T040255Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1767261240@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260101T095400Z
+DTEND:20260102T095400Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1767763375@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260107T052255Z
+DTEND:20260107T172255Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1769018547@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260121T180227Z
+DTEND:20260122T060227Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1769680661@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260129T095741Z
+DTEND:20260130T095741Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1770124709@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260203T131829Z
+DTEND:20260204T011829Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1771287114@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260217T001154Z
+DTEND:20260218T001154Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1771373926@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260218T001846Z
+DTEND:20260218T121846Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1771932053@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260224T112053Z
+DTEND:20260225T112053Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1772490908@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260302T223508Z
+DTEND:20260303T233343Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ Lunar eclipse\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1773739367@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260317T092247Z
+DTEND:20260317T212247Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1774136016@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260321T233336Z
+DTEND:20260322T233336Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1774848826@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260330T053346Z
+DTEND:20260330T173346Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1776102148@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260413T174228Z
+DTEND:20260414T054228Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1776538206@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260418T185006Z
+DTEND:20260419T185006Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1777192543@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260426T083543Z
+DTEND:20260426T203543Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1778452539@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260510T223539Z
+DTEND:20260511T103539Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1778981939@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260517T013859Z
+DTEND:20260518T013859Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1779528362@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260523T092602Z
+DTEND:20260523T212602Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1780791524@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260607T001844Z
+DTEND:20260607T121844Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1781435679@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260614T111439Z
+DTEND:20260615T111439Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1781870206@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260619T115646Z
+DTEND:20260619T235646Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1783129823@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260704T015023Z
+DTEND:20260704T135023Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1783885882@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260712T195122Z
+DTEND:20260713T195122Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1784226470@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260716T182750Z
+DTEND:20260717T062750Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1785477184@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260731T055304Z
+DTEND:20260731T175304Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1786317065@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260809T231105Z
+DTEND:20260810T231105Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1786513557@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260812T054557Z
+DTEND:20260813T155631Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\nDescending node – the moon crosses the eclipti
+ c going south\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1787834748@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260827T124548Z
+DTEND:20260828T161258Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\nL
+ unar eclipse\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1788683793@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260906T083633Z
+DTEND:20260907T083633Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1788959826@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260909T131706Z
+DTEND:20260910T011706Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1790195969@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20260923T203929Z
+DTEND:20260924T083929Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1790845474@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261001T090434Z
+DTEND:20261002T090434Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1791314352@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261006T191912Z
+DTEND:20261007T071912Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1792551131@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261021T025211Z
+DTEND:20261021T145211Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1793168126@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261028T061526Z
+DTEND:20261029T061526Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1793653332@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261102T210212Z
+DTEND:20261103T090212Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1794894479@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261117T054759Z
+DTEND:20261117T174759Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1795597796@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261125T090956Z
+DTEND:20261126T090956Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1795987955@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261129T213235Z
+DTEND:20261130T093235Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1797231745@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261214T070225Z
+DTEND:20261214T190225Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1798058389@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261223T203949Z
+DTEND:20261224T203949Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1798336495@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20261227T015455Z
+DTEND:20261227T135455Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1799575028@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270110T095708Z
+DTEND:20270110T215708Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1800525363@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270121T095603Z
+DTEND:20270122T095603Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1800703566@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270123T112606Z
+DTEND:20270123T232606Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1801886380@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270206T035940Z
+DTEND:20270207T035940Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\nAscending node – the moon crosses the ecliptic
+  going north\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1802979570@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270218T193930Z
+DTEND:20270219T193930Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1803076818@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270219T224018Z
+DTEND:20270220T104018Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1803121971@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270220T111251Z
+DTEND:20270221T111251Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1804286408@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270305T224008Z
+DTEND:20270306T104008Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1805387921@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270318T163841Z
+DTEND:20270319T190604Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nDescending node 
+ – the moon crosses the ecliptic going south\n\nAvoid sowing\, planting a
+ nd harvesting now. Routine work such as watering and weeding is fine. A go
+ od time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1806639401@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270402T041641Z
+DTEND:20270402T161641Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1807620032@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270413T124032Z
+DTEND:20270414T124032Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1807785072@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270415T103112Z
+DTEND:20270415T223112Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1808983427@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270429T072347Z
+DTEND:20270429T192347Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1809849727@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270509T080207Z
+DTEND:20270510T080207Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1810119808@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270512T110328Z
+DTEND:20270512T230328Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1811323219@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270526T092019Z
+DTEND:20270526T212019Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1812250049@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270606T024729Z
+DTEND:20270607T024729Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1812461013@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270608T132333Z
+DTEND:20270609T012333Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1813667105@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270622T122505Z
+DTEND:20270623T002505Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1814690979@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270704T084939Z
+DTEND:20270705T084939Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1814818516@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270705T201516Z
+DTEND:20270706T081516Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1815883381@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270718T040301Z
+DTEND:20270719T040301Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1816018386@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270719T173306Z
+DTEND:20270720T053306Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1817144366@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270801T181926Z
+DTEND:20270802T220640Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nSolar eclipse\nDe
+ scending node – the moon crosses the ecliptic going south\n\nAvoid sowin
+ g\, planting and harvesting now. Routine work such as watering and weeding
+  is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1818373722@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270815T234842Z
+DTEND:20270816T114842Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1818443632@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270816T191352Z
+DTEND:20270817T191352Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1819558871@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270829T170111Z
+DTEND:20270831T033548Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ Perigee – the moon is closest to the earth\n\nAvoid sowing\, planting an
+ d harvesting now. Routine work such as watering and weeding is fine. A goo
+ d time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1820726691@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270912T052451Z
+DTEND:20270912T172451Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1821917006@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270926T000326Z
+DTEND:20270926T120326Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1822032251@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20270927T080411Z
+DTEND:20270928T080411Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1823072260@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271009T085740Z
+DTEND:20271009T205740Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1824257688@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271023T021448Z
+DTEND:20271023T141448Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1824398930@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271024T172850Z
+DTEND:20271025T172850Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1825411972@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271105T105252Z
+DTEND:20271105T225252Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1826540586@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271118T122306Z
+DTEND:20271119T143351Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nDescending node 
+ – the moon crosses the ecliptic going south\n\nAvoid sowing\, planting a
+ nd harvesting now. Routine work such as watering and weeding is fine. A go
+ od time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1827754604@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271202T133644Z
+DTEND:20271203T013644Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1828881373@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271215T143613Z
+DTEND:20271216T181933Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nDescending node 
+ – the moon crosses the ecliptic going south\n\nAvoid sowing\, planting a
+ nd harvesting now. Routine work such as watering and weeding is fine. A go
+ od time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1830106242@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20271229T185042Z
+DTEND:20271230T065042Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1831219988@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280111T161308Z
+DTEND:20280113T195424Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nDescending node – the moon crosses the eclipti
+ c going south\nPerigee – the moon is closest to the earth\n\nAvoid sowin
+ g\, planting and harvesting now. Routine work such as watering and weeding
+  is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1832463063@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280126T013103Z
+DTEND:20280127T030750Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\nS
+ olar eclipse\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1833677773@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280209T025613Z
+DTEND:20280209T145613Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1833782602@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280210T080322Z
+DTEND:20280211T080322Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1834816242@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280222T071042Z
+DTEND:20280222T191042Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1836043607@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280307T120647Z
+DTEND:20280308T000647Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1836246585@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280309T202945Z
+DTEND:20280310T202945Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1837160322@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280320T101842Z
+DTEND:20280320T221842Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1838390940@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280403T160900Z
+DTEND:20280404T040900Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1838693792@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280407T041632Z
+DTEND:20280408T041632Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1839498881@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280416T115441Z
+DTEND:20280416T235441Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1840726013@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280430T164653Z
+DTEND:20280501T044653Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1841092940@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280504T224220Z
+DTEND:20280505T224220Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1841841865@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280513T144425Z
+DTEND:20280514T024425Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1843065637@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280527T184037Z
+DTEND:20280528T064037Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1843324719@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280530T183839Z
+DTEND:20280531T183839Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1844194689@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280609T201809Z
+DTEND:20280610T081809Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1845420163@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280624T004243Z
+DTEND:20280624T124243Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1845562616@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280625T161656Z
+DTEND:20280626T161656Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1846477183@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280706T061943Z
+DTEND:20280707T153448Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nAscending node – the moon crosses the ecliptic
+  going north\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1847786986@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280721T100946Z
+DTEND:20280722T145530Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ Solar eclipse\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1847959912@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280723T101152Z
+DTEND:20280724T101152Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1848910772@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280803T101932Z
+DTEND:20280803T221932Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1850155443@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280817T200403Z
+DTEND:20280818T080403Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1850400459@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280820T160739Z
+DTEND:20280821T160739Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1851259087@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280830T143807Z
+DTEND:20280831T023807Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1852513445@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280914T030405Z
+DTEND:20280914T150405Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1852856082@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280918T021442Z
+DTEND:20280919T021442Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1853598064@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20280926T162104Z
+DTEND:20280927T042104Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1854855412@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281011T053652Z
+DTEND:20281011T173652Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1855312443@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281016T123403Z
+DTEND:20281017T123403Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1855936471@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281023T175431Z
+DTEND:20281024T055431Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1857190093@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281107T060813Z
+DTEND:20281107T180813Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1857750427@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281113T174707Z
+DTEND:20281114T174707Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1858286009@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281119T223329Z
+DTEND:20281120T103329Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1859534041@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281204T091401Z
+DTEND:20281204T211401Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1860107058@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281211T002418Z
+DTEND:20281212T002418Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1860648045@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281217T064045Z
+DTEND:20281217T184045Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1861851128@terraluna
+DTSTAMP:20261010T160842Z
+DTSTART:20281231T045208Z
+DTEND:20290101T045208Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nDescending node – the moon crosses the eclipti
+ c going south\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

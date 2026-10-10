@@ -1,0 +1,3698 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//TerraLuna//Biodynamic calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TerraLuna – Biodynamic sowing calendar
+X-WR-CALDESC:Biodynamic sowing calendar
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:tl-earth-1735691483@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250101T003123Z
+DTEND:20250103T051745Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1736435792@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250109T151632Z
+DTEND:20250111T182513Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1737215920@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250118T155840Z
+DTEND:20250121T043334Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1738056126@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250128T092206Z
+DTEND:20250130T130508Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1738788366@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250205T204606Z
+DTEND:20250208T005124Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1739578476@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250215T001436Z
+DTEND:20250217T123239Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1740425162@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250224T192602Z
+DTEND:20250226T230703Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1741142585@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250305T024305Z
+DTEND:20250307T061510Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1741937192@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250314T072632Z
+DTEND:20250316T194526Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1742792097@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250324T045457Z
+DTEND:20250326T094440Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1743505214@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250401T110014Z
+DTEND:20250403T125159Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1744292080@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250410T133440Z
+DTEND:20250413T020901Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1745152468@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250420T123428Z
+DTEND:20250422T190121Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1745875422@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250428T212342Z
+DTEND:20250430T214454Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1746646065@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250507T192745Z
+DTEND:20250510T081219Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1747506836@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250517T183356Z
+DTEND:20250520T020540Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1748247050@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250526T081050Z
+DTEND:20250528T080642Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1749002718@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250604T020518Z
+DTEND:20250606T143644Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1749859699@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250614T000819Z
+DTEND:20250616T073959Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1750613627@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250622T173347Z
+DTEND:20250624T181545Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1751363636@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250701T095356Z
+DTEND:20250703T214919Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1752215922@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250711T063842Z
+DTEND:20250713T132337Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1752972128@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250720T004208Z
+DTEND:20250722T024506Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1753727410@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250728T183010Z
+DTEND:20250731T054529Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1754577678@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250807T144118Z
+DTEND:20250809T204118Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1755324831@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250816T061351Z
+DTEND:20250818T091031Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1756090735@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250825T025855Z
+DTEND:20250827T135130Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1756943483@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250903T235123Z
+DTEND:20250906T055133Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1757678440@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250912T120040Z
+DTEND:20250914T143339Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1758450483@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250921T102803Z
+DTEND:20250923T212612Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1759309043@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251001T085723Z
+DTEND:20251003T155744Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1760039610@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251009T195330Z
+DTEND:20251011T205434Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1760805711@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251018T164151Z
+DTEND:20251021T040619Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1761669893@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251028T164453Z
+DTEND:20251031T011831Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1762409830@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251106T061710Z
+DTEND:20251108T054430Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1763158898@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251114T222138Z
+DTEND:20251117T100507Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1764025026@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251124T225706Z
+DTEND:20251127T083730Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1764783870@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251203T174430Z
+DTEND:20251205T164535Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1765515040@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251212T045040Z
+DTEND:20251214T161142Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1766378223@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251222T043703Z
+DTEND:20251224T141633Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1767153192@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251231T035312Z
+DTEND:20260102T035601Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1767877762@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260108T130922Z
+DTEND:20260110T232243Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1768734671@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260118T111111Z
+DTEND:20260120T200536Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1769512507@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260127T111507Z
+DTEND:20260129T130111Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1770245403@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260204T225003Z
+DTEND:20260207T075202Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1771096348@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260214T191228Z
+DTEND:20260217T033554Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1771864951@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260223T164231Z
+DTEND:20260225T192454Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1772612148@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260304T081548Z
+DTEND:20260306T164852Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1773460995@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260314T040315Z
+DTEND:20260316T124429Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1774219447@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260322T224407Z
+DTEND:20260325T004726Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1774972978@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260331T160258Z
+DTEND:20260403T005854Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1775824447@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260410T123407Z
+DTEND:20260412T221453Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1776582075@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260419T070115Z
+DTEND:20260421T073100Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1777327558@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260427T220558Z
+DTEND:20260430T074422Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1778183799@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260507T195639Z
+DTEND:20260510T064303Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1778951807@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260516T171647Z
+DTEND:20260518T163500Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1779680246@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260525T033726Z
+DTEND:20260527T133010Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1780539109@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260604T021149Z
+DTEND:20260606T133358Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1781322934@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260613T035534Z
+DTEND:20260615T031058Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1782036611@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260621T101011Z
+DTEND:20260623T192304Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1782892912@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260701T080152Z
+DTEND:20260703T191839Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1783689310@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260710T131510Z
+DTEND:20260712T133637Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1784399344@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260718T182904Z
+DTEND:20260721T022442Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1785248374@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260728T141934Z
+DTEND:20260731T010817Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1786047814@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260806T202334Z
+DTEND:20260808T221910Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1786766689@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260815T040449Z
+DTEND:20260817T104939Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1787607385@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260824T213625Z
+DTEND:20260827T080546Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1788400564@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260903T015604Z
+DTEND:20260905T044833Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1789133905@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260911T133825Z
+DTEND:20260913T195638Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1789969515@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260921T054515Z
+DTEND:20260923T162710Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1790754235@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260930T074355Z
+DTEND:20261002T101041Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1791496098@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261008T214818Z
+DTEND:20261011T043416Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1792332197@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261018T140317Z
+DTEND:20261021T013033Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1793115407@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261027T153647Z
+DTEND:20261029T163647Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1793851485@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261105T040445Z
+DTEND:20261107T114520Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1794692490@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261114T214130Z
+DTEND:20261117T100038Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1795485291@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261124T015451Z
+DTEND:20261126T014114Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1796203767@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261202T092927Z
+DTEND:20261204T173259Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1797049305@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261212T042145Z
+DTEND:20261214T170600Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1797858375@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261221T130615Z
+DTEND:20261223T125606Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1798560458@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261229T160738Z
+DTEND:20261231T231708Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1799404157@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270108T102917Z
+DTEND:20270110T230510Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1800226318@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270117T225158Z
+DTEND:20270120T000838Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1800926114@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270126T011514Z
+DTEND:20270128T063850Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1801759710@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270204T164830Z
+DTEND:20270207T050648Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1802584682@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270214T055802Z
+DTEND:20270216T090504Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1803297620@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270222T120020Z
+DTEND:20270224T160032Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1804117855@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270303T235055Z
+DTEND:20270306T120452Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1804937111@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270313T112511Z
+DTEND:20270315T152142Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1805667300@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270321T221500Z
+DTEND:20270324T020323Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1806478674@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270331T073754Z
+DTEND:20270402T200310Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1807291609@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270409T172649Z
+DTEND:20270411T204431Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1808029325@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270418T062205Z
+DTEND:20270420T110141Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1808840487@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270427T154127Z
+DTEND:20270430T042408Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1809653159@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270507T012559Z
+DTEND:20270509T032630Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1810383757@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270515T122237Z
+DTEND:20270517T180332Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1811201000@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270524T232320Z
+DTEND:20270527T121937Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1812020878@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270603T110758Z
+DTEND:20270605T122043Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1812736079@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270611T174759Z
+DTEND:20270613T234052Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1813558759@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270621T061919Z
+DTEND:20270623T192104Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1814389962@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270630T211242Z
+DTEND:20270702T224346Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1815092979@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270709T002939Z
+DTEND:20270711T052334Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1815914041@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270718T123401Z
+DTEND:20270721T013424Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1816754965@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270728T060925Z
+DTEND:20270730T090000Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1817457588@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270805T091948Z
+DTEND:20270807T123742Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1818268634@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270814T183714Z
+DTEND:20270817T073447Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1819112935@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270824T130855Z
+DTEND:20270826T173654Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1819827799@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270901T194319Z
+DTEND:20270903T214634Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1820624838@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270911T010718Z
+DTEND:20270913T140408Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1821465759@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270920T184239Z
+DTEND:20270923T000241Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1822197845@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270929T060405Z
+DTEND:20271001T075642Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1822984144@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271008T082904Z
+DTEND:20271010T212602Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1823819510@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271018T003150Z
+DTEND:20271020T052440Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1824561632@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271026T144032Z
+DTEND:20271028T172928Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1825346221@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271104T163701Z
+DTEND:20271107T052956Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1826179976@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271114T081256Z
+DTEND:20271116T115301Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1826917068@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271122T205748Z
+DTEND:20271125T010320Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1827708873@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271202T005433Z
+DTEND:20271204T133753Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1828547849@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271211T175729Z
+DTEND:20271213T205220Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1829269175@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271220T021935Z
+DTEND:20271222T064426Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1830069235@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271229T083355Z
+DTEND:20271231T211011Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1830917912@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280108T041832Z
+DTEND:20280110T074457Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1831626964@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280116T091604Z
+DTEND:20280118T122628Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1832425834@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280125T151034Z
+DTEND:20280128T035217Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1833283084@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280204T131804Z
+DTEND:20280206T182204Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1833994718@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280212T185838Z
+DTEND:20280214T201523Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1834780007@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280221T210647Z
+DTEND:20280224T100215Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1835640325@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280302T200525Z
+DTEND:20280305T024808Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1836368142@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280311T061542Z
+DTEND:20280313T062407Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1837135319@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280320T032159Z
+DTEND:20280322T161821Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1837993075@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280330T013755Z
+DTEND:20280401T085510Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1838738963@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280407T164923Z
+DTEND:20280409T171239Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1839494688@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280416T104448Z
+DTEND:20280418T231531Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1840347473@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280426T073753Z
+DTEND:20280428T142039Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1841101414@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280505T010334Z
+DTEND:20280507T024158Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1841857839@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280513T191039Z
+DTEND:20280516T070030Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1842707232@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280523T150712Z
+DTEND:20280525T205508Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1843455867@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280601T070427Z
+DTEND:20280603T095609Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1844221678@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280610T034758Z
+DTEND:20280612T150633Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1845071850@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280619T235730Z
+DTEND:20280622T052220Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1845808179@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280628T122939Z
+DTEND:20280630T153154Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1846582758@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280707T113918Z
+DTEND:20280709T225154Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1847437766@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280717T090926Z
+DTEND:20280719T150717Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1848165388@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280725T191628Z
+DTEND:20280727T211323Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1848939511@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280803T181831Z
+DTEND:20280806T054824Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1849800635@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280813T173035Z
+DTEND:20280816T004722Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1850530853@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280822T042053Z
+DTEND:20280824T044143Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1851293175@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280831T000615Z
+DTEND:20280902T115844Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1852158009@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280910T002009Z
+DTEND:20280912T085932Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1852902404@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280918T150644Z
+DTEND:20280920T142531Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1853647397@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280927T060317Z
+DTEND:20280929T175703Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1854511387@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281007T060307Z
+DTEND:20281009T151729Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1855273729@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281016T014849Z
+DTEND:20281018T012123Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1856006151@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281024T131551Z
+DTEND:20281027T003218Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1856865496@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281103T115816Z
+DTEND:20281105T204519Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1857638041@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281112T103401Z
+DTEND:20281114T112957Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1858370688@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281120T220448Z
+DTEND:20281123T081715Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1859224631@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281130T191711Z
+DTEND:20281203T031449Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1859993320@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281209T164840Z
+DTEND:20281211T191451Z
+SUMMARY:🥕 Root day · ♍ Virgo
+DESCRIPTION:Moon in Virgo (Earth)\n\nSowing & planting: Sow and plant root 
+ crops and tubers.\nHarvesting: Harvest roots and tubers for storage – th
+ ey keep longer.\nOther work: Hoe around root crops\, work the soil\, sprea
+ d compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1860737846@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281218T073726Z
+DTEND:20281220T165813Z
+SUMMARY:🥕 Root day · ♑ Capricorn
+DESCRIPTION:Moon in Capricorn (Earth)\n\nSowing & planting: Sow and plant r
+ oot crops and tubers.\nHarvesting: Harvest roots and tubers for storage 
+ – they keep longer.\nOther work: Hoe around root crops\, work the soil\,
+  spread compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-earth-1861589067@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281228T040427Z
+DTEND:20281230T114753Z
+SUMMARY:🥕 Root day · ♉ Taurus
+DESCRIPTION:Moon in Taurus (Earth)\n\nSowing & planting: Sow and plant root
+  crops and tubers.\nHarvesting: Harvest roots and tubers for storage – t
+ hey keep longer.\nOther work: Hoe around root crops\, work the soil\, spre
+ ad compost and mulch.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1736084739@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250105T134539Z
+DTEND:20250106T014539Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1736251872@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250107T121112Z
+DTEND:20250108T121112Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1737229692@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250118T194812Z
+DTEND:20250119T074812Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1738420793@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250201T143953Z
+DTEND:20250202T143953Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nAscending node 
+ – the moon crosses the ecliptic going north\n\nAvoid sowing\, planting a
+ nd harvesting now. Routine work such as watering and weeding is fine. A go
+ od time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1739580878@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250215T005438Z
+DTEND:20250215T125438Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1740785932@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250228T233852Z
+DTEND:20250302T091545Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\nP
+ erigee – the moon is closest to the earth\n\nAvoid sowing\, planting and
+  harvesting now. Routine work such as watering and weeding is fine. A good
+  time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1741892327@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250313T185847Z
+DTEND:20250314T194610Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nDescending node – the moon crosses the eclipti
+ c going south\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1743157715@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250328T102835Z
+DTEND:20250328T222835Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1743202047@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250328T224727Z
+DTEND:20250330T172000Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\nPerigee – the moon is closest to the earth\n\n
+ Avoid sowing\, planting and harvesting now. Routine work such as watering 
+ and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1744293411@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250410T135651Z
+DTEND:20250411T015651Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1745526124@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250424T202204Z
+DTEND:20250425T082204Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1745727170@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250427T041250Z
+DTEND:20250428T041250Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1746639894@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250507T174454Z
+DTEND:20250508T054454Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1747879513@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250522T020513Z
+DTEND:20250522T140513Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1748179729@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250525T132849Z
+DTEND:20250526T132849Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1748979191@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250603T193311Z
+DTEND:20250604T073311Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1750218049@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250618T034049Z
+DTEND:20250618T154049Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1750610300@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250622T163820Z
+DTEND:20250623T163820Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1751319903@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250630T214503Z
+DTEND:20250701T094503Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1752554447@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250715T044047Z
+DTEND:20250715T164047Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1752976101@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250720T014821Z
+DTEND:20250721T014821Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1753669831@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250728T023031Z
+DTEND:20250728T143031Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1754902312@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250811T085152Z
+DTEND:20250811T205152Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1755151793@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250814T060953Z
+DTEND:20250815T060953Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1756028509@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250824T094149Z
+DTEND:20250824T214149Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1757225509@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250907T061149Z
+DTEND:20250908T061149Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nAscending node – the moon crosses the ecliptic
+  going north\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1757463636@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250910T002036Z
+DTEND:20250911T002036Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1758388395@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250920T171315Z
+DTEND:20250921T051315Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1758440520@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20250921T074200Z
+DTEND:20250922T074200Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1759634358@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251005T031918Z
+DTEND:20251005T151918Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1759884434@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251008T004714Z
+DTEND:20251009T004714Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1760740435@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251017T223355Z
+DTEND:20251018T103355Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1761997437@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251101T114357Z
+DTEND:20251101T234357Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1762338926@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251105T103526Z
+DTEND:20251106T103526Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1763080737@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251114T003857Z
+DTEND:20251114T123857Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1764343967@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251128T153247Z
+DTEND:20251129T033247Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1764803749@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251203T231549Z
+DTEND:20251204T231549Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1765416860@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251211T013420Z
+DTEND:20251211T133420Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1766678575@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20251225T160255Z
+DTEND:20251226T040255Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1767261240@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260101T095400Z
+DTEND:20260102T095400Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1767763375@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260107T052255Z
+DTEND:20260107T172255Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1769018547@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260121T180227Z
+DTEND:20260122T060227Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1769680661@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260129T095741Z
+DTEND:20260130T095741Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1770124709@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260203T131829Z
+DTEND:20260204T011829Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1771287114@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260217T001154Z
+DTEND:20260218T001154Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1771373926@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260218T001846Z
+DTEND:20260218T121846Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1771932053@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260224T112053Z
+DTEND:20260225T112053Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1772490908@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260302T223508Z
+DTEND:20260303T233343Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ Lunar eclipse\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1773739367@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260317T092247Z
+DTEND:20260317T212247Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1774136016@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260321T233336Z
+DTEND:20260322T233336Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1774848826@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260330T053346Z
+DTEND:20260330T173346Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1776102148@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260413T174228Z
+DTEND:20260414T054228Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1776538206@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260418T185006Z
+DTEND:20260419T185006Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1777192543@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260426T083543Z
+DTEND:20260426T203543Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1778452539@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260510T223539Z
+DTEND:20260511T103539Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1778981939@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260517T013859Z
+DTEND:20260518T013859Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1779528362@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260523T092602Z
+DTEND:20260523T212602Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1780791524@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260607T001844Z
+DTEND:20260607T121844Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1781435679@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260614T111439Z
+DTEND:20260615T111439Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1781870206@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260619T115646Z
+DTEND:20260619T235646Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1783129823@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260704T015023Z
+DTEND:20260704T135023Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1783885882@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260712T195122Z
+DTEND:20260713T195122Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1784226470@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260716T182750Z
+DTEND:20260717T062750Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1785477184@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260731T055304Z
+DTEND:20260731T175304Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1786317065@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260809T231105Z
+DTEND:20260810T231105Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1786513557@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260812T054557Z
+DTEND:20260813T155631Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\nDescending node – the moon crosses the eclipti
+ c going south\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1787834748@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260827T124548Z
+DTEND:20260828T161258Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\nL
+ unar eclipse\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1788683793@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260906T083633Z
+DTEND:20260907T083633Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1788959826@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260909T131706Z
+DTEND:20260910T011706Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1790195969@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20260923T203929Z
+DTEND:20260924T083929Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1790845474@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261001T090434Z
+DTEND:20261002T090434Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1791314352@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261006T191912Z
+DTEND:20261007T071912Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1792551131@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261021T025211Z
+DTEND:20261021T145211Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1793168126@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261028T061526Z
+DTEND:20261029T061526Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1793653332@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261102T210212Z
+DTEND:20261103T090212Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1794894479@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261117T054759Z
+DTEND:20261117T174759Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1795597796@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261125T090956Z
+DTEND:20261126T090956Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1795987955@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261129T213235Z
+DTEND:20261130T093235Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1797231745@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261214T070225Z
+DTEND:20261214T190225Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1798058389@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261223T203949Z
+DTEND:20261224T203949Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1798336495@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20261227T015455Z
+DTEND:20261227T135455Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1799575028@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270110T095708Z
+DTEND:20270110T215708Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1800525363@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270121T095603Z
+DTEND:20270122T095603Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1800703566@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270123T112606Z
+DTEND:20270123T232606Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1801886380@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270206T035940Z
+DTEND:20270207T035940Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Solar eclipse\nAscending node – the moon crosses the ecliptic
+  going north\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1802979570@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270218T193930Z
+DTEND:20270219T193930Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1803076818@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270219T224018Z
+DTEND:20270220T104018Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1803121971@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270220T111251Z
+DTEND:20270221T111251Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1804286408@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270305T224008Z
+DTEND:20270306T104008Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1805387921@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270318T163841Z
+DTEND:20270319T190604Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nDescending node 
+ – the moon crosses the ecliptic going south\n\nAvoid sowing\, planting a
+ nd harvesting now. Routine work such as watering and weeding is fine. A go
+ od time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1806639401@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270402T041641Z
+DTEND:20270402T161641Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1807620032@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270413T124032Z
+DTEND:20270414T124032Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1807785072@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270415T103112Z
+DTEND:20270415T223112Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1808983427@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270429T072347Z
+DTEND:20270429T192347Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1809849727@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270509T080207Z
+DTEND:20270510T080207Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1810119808@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270512T110328Z
+DTEND:20270512T230328Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1811323219@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270526T092019Z
+DTEND:20270526T212019Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1812250049@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270606T024729Z
+DTEND:20270607T024729Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1812461013@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270608T132333Z
+DTEND:20270609T012333Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1813667105@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270622T122505Z
+DTEND:20270623T002505Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1814690979@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270704T084939Z
+DTEND:20270705T084939Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1814818516@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270705T201516Z
+DTEND:20270706T081516Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1815883381@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270718T040301Z
+DTEND:20270719T040301Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1816018386@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270719T173306Z
+DTEND:20270720T053306Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1817144366@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270801T181926Z
+DTEND:20270802T220640Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nSolar eclipse\nDe
+ scending node – the moon crosses the ecliptic going south\n\nAvoid sowin
+ g\, planting and harvesting now. Routine work such as watering and weeding
+  is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1818373722@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270815T234842Z
+DTEND:20270816T114842Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1818443632@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270816T191352Z
+DTEND:20270817T191352Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\n\nAvoid sowing\, planting and harvesting now. Ro
+ utine work such as watering and weeding is fine. A good time to plan\, men
+ d tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1819558871@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270829T170111Z
+DTEND:20270831T033548Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ Perigee – the moon is closest to the earth\n\nAvoid sowing\, planting an
+ d harvesting now. Routine work such as watering and weeding is fine. A goo
+ d time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1820726691@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270912T052451Z
+DTEND:20270912T172451Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1821917006@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270926T000326Z
+DTEND:20270926T120326Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1822032251@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20270927T080411Z
+DTEND:20270928T080411Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1823072260@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271009T085740Z
+DTEND:20271009T205740Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1824257688@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271023T021448Z
+DTEND:20271023T141448Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1824398930@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271024T172850Z
+DTEND:20271025T172850Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1825411972@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271105T105252Z
+DTEND:20271105T225252Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1826540586@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271118T122306Z
+DTEND:20271119T143351Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nDescending node 
+ – the moon crosses the ecliptic going south\n\nAvoid sowing\, planting a
+ nd harvesting now. Routine work such as watering and weeding is fine. A go
+ od time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1827754604@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271202T133644Z
+DTEND:20271203T013644Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1828881373@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271215T143613Z
+DTEND:20271216T181933Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\nDescending node 
+ – the moon crosses the ecliptic going south\n\nAvoid sowing\, planting a
+ nd harvesting now. Routine work such as watering and weeding is fine. A go
+ od time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1830106242@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20271229T185042Z
+DTEND:20271230T065042Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1831219988@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280111T161308Z
+DTEND:20280113T195424Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nDescending node – the moon crosses the eclipti
+ c going south\nPerigee – the moon is closest to the earth\n\nAvoid sowin
+ g\, planting and harvesting now. Routine work such as watering and weeding
+  is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1832463063@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280126T013103Z
+DTEND:20280127T030750Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\nS
+ olar eclipse\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1833677773@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280209T025613Z
+DTEND:20280209T145613Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1833782602@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280210T080322Z
+DTEND:20280211T080322Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1834816242@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280222T071042Z
+DTEND:20280222T191042Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1836043607@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280307T120647Z
+DTEND:20280308T000647Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1836246585@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280309T202945Z
+DTEND:20280310T202945Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1837160322@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280320T101842Z
+DTEND:20280320T221842Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1838390940@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280403T160900Z
+DTEND:20280404T040900Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1838693792@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280407T041632Z
+DTEND:20280408T041632Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1839498881@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280416T115441Z
+DTEND:20280416T235441Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1840726013@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280430T164653Z
+DTEND:20280501T044653Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1841092940@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280504T224220Z
+DTEND:20280505T224220Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1841841865@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280513T144425Z
+DTEND:20280514T024425Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1843065637@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280527T184037Z
+DTEND:20280528T064037Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1843324719@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280530T183839Z
+DTEND:20280531T183839Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1844194689@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280609T201809Z
+DTEND:20280610T081809Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1845420163@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280624T004243Z
+DTEND:20280624T124243Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1845562616@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280625T161656Z
+DTEND:20280626T161656Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1846477183@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280706T061943Z
+DTEND:20280707T153448Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nAscending node – the moon crosses the ecliptic
+  going north\n\nAvoid sowing\, planting and harvesting now. Routine work s
+ uch as watering and weeding is fine. A good time to plan\, mend tools and 
+ rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1847786986@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280721T100946Z
+DTEND:20280722T145530Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ Solar eclipse\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1847959912@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280723T101152Z
+DTEND:20280724T101152Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1848910772@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280803T101932Z
+DTEND:20280803T221932Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1850155443@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280817T200403Z
+DTEND:20280818T080403Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1850400459@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280820T160739Z
+DTEND:20280821T160739Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1851259087@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280830T143807Z
+DTEND:20280831T023807Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1852513445@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280914T030405Z
+DTEND:20280914T150405Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1852856082@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280918T021442Z
+DTEND:20280919T021442Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1853598064@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20280926T162104Z
+DTEND:20280927T042104Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1854855412@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281011T053652Z
+DTEND:20281011T173652Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1855312443@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281016T123403Z
+DTEND:20281017T123403Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1855936471@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281023T175431Z
+DTEND:20281024T055431Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1857190093@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281107T060813Z
+DTEND:20281107T180813Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1857750427@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281113T174707Z
+DTEND:20281114T174707Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1858286009@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281119T223329Z
+DTEND:20281120T103329Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1859534041@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281204T091401Z
+DTEND:20281204T211401Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Descending node – the moon crosses the ecliptic going south\n
+ \nAvoid sowing\, planting and harvesting now. Routine work such as waterin
+ g and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1860107058@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281211T002418Z
+DTEND:20281212T002418Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Perigee – the moon is closest to the earth\n\nAvoid sowing\, 
+ planting and harvesting now. Routine work such as watering and weeding is 
+ fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1860648045@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281217T064045Z
+DTEND:20281217T184045Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Ascending node – the moon crosses the ecliptic going north\n\
+ nAvoid sowing\, planting and harvesting now. Routine work such as watering
+  and weeding is fine. A good time to plan\, mend tools and rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tl-unf-1861851128@terraluna
+DTSTAMP:20261010T160841Z
+DTSTART:20281231T045208Z
+DTEND:20290101T045208Z
+SUMMARY:⚠ Unfavorable for sowing and harvesting
+DESCRIPTION:Lunar eclipse\nDescending node – the moon crosses the eclipti
+ c going south\n\nAvoid sowing\, planting and harvesting now. Routine work 
+ such as watering and weeding is fine. A good time to plan\, mend tools and
+  rest.
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

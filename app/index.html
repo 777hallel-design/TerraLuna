@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>טרה-לונה · לוח זריעה ביודינמי</title>
+  <meta name="description" content="לוח שנה ביודינמי: ימי שורש, עלה, פרח ופרי, ירח עולה ויורד וזמנים לא מומלצים לזריעה ולקטיף.">
+  <meta name="theme-color" content="#4f6b3a">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-t="skip">דילוג לתוכן</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <img src="icons/icon.svg" alt="" width="36" height="36">
+      <div>
+        <h1 data-t="appName">טרה-לונה</h1>
+        <p class="tagline" data-t="tagline">לוח זריעה ביודינמי</p>
+      </div>
+    </div>
+    <nav class="tools" aria-label="tools">
+      <button type="button" class="btn ghost" data-open="finder"><span aria-hidden="true">🌱</span> <span data-t="finder">מתי לזרוע?</span></button>
+      <button type="button" class="btn ghost" data-open="subscribe"><span aria-hidden="true">📅</span> <span data-t="subscribe">חיבור ליומן</span></button>
+      <button type="button" class="btn ghost" data-open="guide"><span aria-hidden="true">📖</span> <span data-t="guide">מדריך</span></button>
+      <button type="button" class="btn ghost" data-open="settings"><span aria-hidden="true">⚙️</span> <span data-t="settings">הגדרות</span></button>
+    </nav>
+  </header>
+
+  <div class="toolbar">
+    <div class="nav-date">
+      <button type="button" class="btn icon" id="prev"><span aria-hidden="true" class="flip">‹</span><span class="sr" data-t="prev">הקודם</span></button>
+      <button type="button" class="btn" id="today" data-t="today">היום</button>
+      <button type="button" class="btn icon" id="next"><span aria-hidden="true" class="flip">›</span><span class="sr" data-t="next">הבא</span></button>
+      <h2 id="title" aria-live="polite"></h2>
+    </div>
+    <div class="views" role="tablist" aria-label="view">
+      <button type="button" role="tab" data-view="hour"></button>
+      <button type="button" role="tab" data-view="day"></button>
+      <button type="button" role="tab" data-view="week"></button>
+      <button type="button" role="tab" data-view="month"></button>
+      <button type="button" role="tab" data-view="year"></button>
+    </div>
+  </div>
+
+  <div class="legend" id="legend" aria-hidden="false"></div>
+
+  <main id="main" tabindex="-1">
+    <div id="view" class="view"></div>
+  </main>
+
+  <dialog id="dlg-day" class="sheet" aria-labelledby="day-title">
+    <div class="sheet-body" id="day-body"></div>
+  </dialog>
+
+  <dialog id="dlg-finder" class="sheet" aria-labelledby="finder-title">
+    <div class="sheet-body" id="finder-body"></div>
+  </dialog>
+
+  <dialog id="dlg-subscribe" class="sheet" aria-labelledby="subscribe-title">
+    <div class="sheet-body" id="subscribe-body"></div>
+  </dialog>
+
+  <dialog id="dlg-settings" class="sheet" aria-labelledby="settings-title">
+    <div class="sheet-body" id="settings-body"></div>
+  </dialog>
+
+  <dialog id="dlg-guide" class="sheet" aria-labelledby="guide-title">
+    <div class="sheet-body" id="guide-body"></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
