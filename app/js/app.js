@@ -3,6 +3,7 @@ import { STRINGS, CROPS, inSeason } from './i18n.js';
 import { buildICS, buildDailyICS } from './ics.js';
 import { riseSet, PLACES } from './astro.js';
 import { svg, moonSvg, PHASE_AGE } from './icons.js';
+import * as Sync from './sync.js';
 
 // ---------------------------------------------------------------- storage
 
@@ -28,6 +29,13 @@ const DEFAULTS = {
 const settings = { ...DEFAULTS, ...store.get('settings', {}) };
 let thun = store.get('thun', []); // [{start, end, note}] unix seconds
 const journal = store.get('journal', {});
+// When each journal day, the settings and the Thun times were last edited (ms), for sync.
+const journalMeta = store.get('journalMeta', {});
+const stamps = store.get('stamps', { settingsT: 0, thunT: 0, lastServer: null, lastPush: 0, lastSync: 0 });
+// Entries written before sync existed get the oldest possible time, so the first sync uploads them.
+for (const k of Object.keys(journal)) if (!journalMeta[k]) journalMeta[k] = 1;
+const touchJournal = (key) => { journalMeta[key] = Date.now(); store.set('journalMeta', journalMeta); scheduleSync(); };
+const touchThun = () => { stamps.thunT = Date.now(); store.set('stamps', stamps); scheduleSync(); };
 
 const state = { view: store.get('view', 'month'), date: null, available: [], data: new Map(), model: null, modelKey: '', days: new Map() };
 
@@ -458,6 +466,7 @@ function wireDetail(root, key) {
   ta?.addEventListener('input', () => {
     if (ta.value.trim()) journal[key] = ta.value; else delete journal[key];
     store.set('journal', journal);
+    touchJournal(key);
   });
 }
 
@@ -648,6 +657,7 @@ function renderSettings() {
   const check = (k, label) => `<label class="check"><input type="checkbox" data-set="${k}"${settings[k] ? ' checked' : ''}> ${label}</label>`;
   const meta = state.model?.meta || { ephemeris: 'Swiss Ephemeris', ayanamsa: 'lahiri' };
   body.innerHTML = `<div class="sheet-head"><h2 id="settings-title">${tt.settings}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">${svg('close')}</button></div>
+  <fieldset><legend>${s.sync}</legend><p class="muted">${s.syncHint}</p><div id="sync-box"></div></fieldset>
   <fieldset><legend>${s.language} · ${s.timezone}</legend>
     <label class="field">${s.language}<select data-set="lang">${opt('he', 'עברית', settings.lang)}${opt('en', 'English', settings.lang)}</select></label>
     <label class="field">${s.timezone}<select data-set="tz">${zones.map((z) => opt(z, z, settings.tz)).join('')}</select></label>
@@ -721,6 +731,7 @@ function renderSettings() {
     });
   }
   $('#transfer').addEventListener('click', () => shareTransfer());
+  renderSyncBox();
   body.querySelectorAll('[data-scale]').forEach((b) => b.addEventListener('click', () => {
     settings.scale = Math.round(Math.min(1.6, Math.max(0.85, settings.scale + 0.1 * b.dataset.scale)) * 100) / 100;
     $('#scale-out').textContent = `${Math.round(settings.scale * 100)}%`;
@@ -734,6 +745,7 @@ function renderSettings() {
     try {
       thun = parseThun($('#thun').value);
       store.set('thun', thun);
+      touchThun();
       $('#thun-msg').textContent = s.thunSaved(thun.length);
       rebuildModel();
       render();
@@ -750,7 +762,8 @@ function renderSettings() {
       const d = JSON.parse(await f.text());
       Object.assign(journal, d.journal || {});
       store.set('journal', journal);
-      if (Array.isArray(d.thun)) { thun = d.thun; store.set('thun', thun); rebuildModel(); }
+      Object.keys(d.journal || {}).forEach(touchJournal);
+      if (Array.isArray(d.thun)) { thun = d.thun; store.set('thun', thun); touchThun(); rebuildModel(); }
       render();
       toast('✓');
     } catch { toast('✗'); }
@@ -787,14 +800,99 @@ async function importTransfer() {
     if (!confirm(t().set.transferAsk(Object.keys(d.journal || {}).length))) return;
     Object.assign(journal, d.journal || {});
     store.set('journal', journal);
-    if (Array.isArray(d.thun)) { thun = d.thun; store.set('thun', thun); }
-    if (d.settings) { Object.assign(settings, d.settings); store.set('settings', settings); }
+    Object.keys(d.journal || {}).forEach(touchJournal);
+    if (Array.isArray(d.thun)) { thun = d.thun; store.set('thun', thun); touchThun(); }
+    if (d.settings) { Object.assign(settings, d.settings); store.set('settings', settings); stamps.settingsT = Date.now(); store.set('stamps', stamps); }
     applySettings();
     toast(t().set.transferDone);
   } catch { toast('✗'); }
 }
 
+// ---------------------------------------------------------------- sync (Supabase)
+
+let syncTimer = null;
+let syncBusy = false;
+let syncStatus = '';
+function scheduleSync(delay = 2000) {
+  if (!Sync.syncConfigured()) return;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(runSync, delay);
+}
+
+async function runSync() {
+  if (syncBusy || !navigator.onLine) return;
+  syncBusy = true;
+  setSyncStatus(t().set.syncing);
+  try {
+    if (!(await Sync.currentUser())) { setSyncStatus(''); return; }
+    const local = { journal, meta: journalMeta, settings: { ...settings }, thun, ...stamps };
+    const { changed, at } = await Sync.syncNow(local);
+    Object.assign(stamps, { settingsT: local.settingsT, thunT: local.thunT, lastServer: local.lastServer, lastPush: local.lastPush, lastSync: at });
+    store.set('stamps', stamps);
+    store.set('journal', journal);
+    store.set('journalMeta', journalMeta);
+    if (changed.thun) { thun = local.thun; store.set('thun', thun); }
+    if (changed.settings) { Object.assign(settings, local.settings); store.set('settings', settings); applySettings(); }
+    if (changed.journal || changed.settings || changed.thun) { rebuildModel(); state.days.clear(); render(); }
+    setSyncStatus(t().set.lastSynced(fmtTime(Math.floor(at / 1000))));
+  } catch (e) {
+    console.warn('sync', e);
+    setSyncStatus(t().set.syncError);
+  } finally {
+    syncBusy = false;
+  }
+}
+
+function setSyncStatus(msg) {
+  syncStatus = msg;
+  const el = $('#sync-status');
+  if (el) el.textContent = msg;
+}
+
+async function renderSyncBox() {
+  const box = $('#sync-box');
+  if (!box) return;
+  const s = t().set;
+  if (!Sync.syncConfigured()) { box.innerHTML = `<p class="muted">${s.syncNotConfigured}</p>`; return; }
+  const user = await Sync.currentUser().catch(() => null);
+  if (user) {
+    box.innerHTML = `<p><b>${esc(s.signedIn(user.email))}</b></p>
+      <div class="row"><button type="button" class="btn small primary" id="sync-now">${s.syncNow}</button>
+      <button type="button" class="btn small" id="sync-out">${s.signOut}</button></div>
+      <p class="muted" id="sync-status" role="status">${esc(syncStatus || (stamps.lastSync ? s.lastSynced(fmtTime(Math.floor(stamps.lastSync / 1000))) : ''))}</p>`;
+    $('#sync-now').addEventListener('click', runSync);
+    $('#sync-out').addEventListener('click', async () => { await Sync.signOut(); renderSyncBox(); });
+    return;
+  }
+  box.innerHTML = `<label class="field">${s.email}<input type="email" id="sync-email" autocomplete="email" dir="ltr" inputmode="email"></label>
+    <button type="button" class="btn small primary" id="sync-send">${s.sendLink}</button>
+    <div id="sync-code-box" hidden><p id="sync-sent"></p>
+      <div class="row"><label class="field">${s.code}<input type="text" id="sync-code" inputmode="numeric" autocomplete="one-time-code" dir="ltr" maxlength="10"></label>
+      <button type="button" class="btn small primary" id="sync-verify">${s.verify}</button></div></div>
+    <p class="muted" id="sync-status" role="status"></p>`;
+  $('#sync-send').addEventListener('click', async () => {
+    const email = $('#sync-email').value.trim();
+    if (!/^\S+@\S+\.\S+$/.test(email)) { $('#sync-email').focus(); return; }
+    try {
+      await Sync.sendSignIn(email, `${location.origin}${location.pathname}`);
+      $('#sync-code-box').hidden = false;
+      $('#sync-sent').textContent = s.linkSent(email);
+      $('#sync-code').focus();
+    } catch (e) { setSyncStatus(e.message); }
+  });
+  $('#sync-verify').addEventListener('click', async () => {
+    try {
+      await Sync.verifyCode($('#sync-email').value.trim(), $('#sync-code').value.trim());
+      await renderSyncBox();
+      runSync();
+    } catch (e) { setSyncStatus(e.message); }
+  });
+}
+
 function saveSettings() {
+  stamps.settingsT = Date.now();
+  store.set('stamps', stamps);
+  scheduleSync();
   store.set('settings', settings);
   applySettings();
   rebuildModel();
@@ -1000,6 +1098,13 @@ async function main() {
   if (!readHash()) state.date = todayKey();
   await render();
   if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
+  if (Sync.syncConfigured()) {
+    // Also completes a sign-in when we come back from the emailed link.
+    Sync.onAuthChange((user) => { if (user) scheduleSync(0); renderSyncBox(); });
+    scheduleSync(0);
+    window.addEventListener('online', () => scheduleSync(0));
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') scheduleSync(0); });
+  }
 }
 
 main();

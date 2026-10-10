@@ -293,7 +293,7 @@ fieldset { border: 1px solid var(--line); border-radius: 14px; margin: 0 0 1rem;
 legend { font-weight: 800; padding: 0 .35rem; }
 label.field { display: grid; gap: .25rem; margin-bottom: .6rem; font-weight: 600; }
 label.check { display: flex; gap: .5rem; align-items: center; min-height: 40px; }
-select, input[type="number"], input[type="text"] { min-height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); padding: .3rem .7rem; font-weight: 500; }
+select, input[type="number"], input[type="text"], input[type="email"] { min-height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); padding: .3rem .7rem; font-weight: 500; }
 input[type="checkbox"], input[type="radio"] { width: 1.3rem; height: 1.3rem; accent-color: var(--primary); }
 .crop-pick { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .1rem .6rem; }
 .feed { display: grid; gap: .45rem; padding: .8rem 0; border-bottom: 1px solid var(--line); }
