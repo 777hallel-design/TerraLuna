@@ -9,6 +9,9 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -23,22 +26,22 @@
       </div>
     </div>
     <nav class="tools" aria-label="tools">
-      <button type="button" class="btn ghost" data-open="finder"><span aria-hidden="true">🌱</span> <span data-t="finder">מתי לזרוע?</span></button>
-      <button type="button" class="btn ghost" data-open="seasons"><span aria-hidden="true">🗓️</span> <span data-t="seasons">עונות</span></button>
-      <button type="button" class="btn ghost" data-open="subscribe"><span aria-hidden="true">📅</span> <span data-t="subscribe">חיבור ליומן</span></button>
-      <button type="button" class="btn ghost" data-open="guide"><span aria-hidden="true">📖</span> <span data-t="guide">מדריך</span></button>
-      <button type="button" class="btn ghost" data-open="settings"><span aria-hidden="true">⚙️</span> <span data-t="settings">הגדרות</span></button>
+      <button type="button" class="btn ghost" data-open="finder"><span data-icon="sprout"></span> <span data-t="finder">מתי לזרוע?</span></button>
+      <button type="button" class="btn ghost" data-open="seasons"><span data-icon="grid"></span> <span data-t="seasons">עונות</span></button>
+      <button type="button" class="btn ghost" data-open="subscribe"><span data-icon="calendar"></span> <span data-t="subscribe">חיבור ליומן</span></button>
+      <button type="button" class="btn ghost" data-open="guide"><span data-icon="book"></span> <span data-t="guide">מדריך</span></button>
+      <button type="button" class="btn ghost" data-open="settings"><span data-icon="sliders"></span> <span data-t="settings">הגדרות</span></button>
     </nav>
   </header>
 
   <div class="toolbar">
     <div class="nav-date">
-      <button type="button" class="btn icon" id="prev"><span aria-hidden="true" class="flip">‹</span><span class="sr" data-t="prev">הקודם</span></button>
+      <button type="button" class="btn icon" id="prev"><span data-icon="prev" class="flip"></span><span class="sr" data-t="prev">הקודם</span></button>
       <button type="button" class="btn" id="today" data-t="today">היום</button>
-      <button type="button" class="btn icon" id="next"><span aria-hidden="true" class="flip">›</span><span class="sr" data-t="next">הבא</span></button>
+      <button type="button" class="btn icon" id="next"><span data-icon="next" class="flip"></span><span class="sr" data-t="next">הבא</span></button>
       <h2 id="title" aria-live="polite"></h2>
     </div>
-    <button type="button" class="btn small print-btn" id="print"><span aria-hidden="true">🖨️</span> <span data-t="print">הדפסה</span></button>
+    <button type="button" class="btn small print-btn" id="print"><span data-icon="print"></span> <span data-t="print">הדפסה</span></button>
     <div class="views" role="tablist" aria-label="view">
       <button type="button" role="tab" data-view="hour"></button>
       <button type="button" role="tab" data-view="day"></button>
@@ -48,8 +51,9 @@
     </div>
   </div>
 
+  <section class="welcome" id="welcome" hidden aria-labelledby="welcome-title"></section>
   <div class="strip" id="strip" aria-live="polite"></div>
-  <div class="legend" id="legend"></div>
+  <details class="legend-box" id="legend-box"><summary data-t="legendTitle">מקרא</summary><div class="legend" id="legend"></div></details>
 
   <main id="main" tabindex="-1">
     <div id="view" class="view"></div>
@@ -78,6 +82,14 @@
   <dialog id="dlg-guide" class="sheet" aria-labelledby="guide-title">
     <div class="sheet-body" id="guide-body"></div>
   </dialog>
+
+  <nav class="bottombar" aria-label="main">
+    <button type="button" id="tab-cal"><span data-icon="grid"></span><span data-t="calendarTab">לוח</span></button>
+    <button type="button" data-open="finder"><span data-icon="sprout"></span><span data-t="finderShort">מתי לזרוע</span></button>
+    <button type="button" data-open="seasons"><span data-icon="grid"></span><span data-t="seasons">עונות</span></button>
+    <button type="button" data-open="subscribe"><span data-icon="calendar"></span><span data-t="calendarShort">ליומן</span></button>
+    <button type="button" data-open="settings"><span data-icon="sliders"></span><span data-t="settings">הגדרות</span></button>
+  </nav>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 

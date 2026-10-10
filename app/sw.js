@@ -1,6 +1,6 @@
 // Offline support: app shell cached on install, data and feeds refreshed in the background.
-const CACHE = 'terraluna-v2';
-const SHELL = ['./', 'index.html', 'css/styles.css', 'js/app.js', 'js/core.js', 'js/i18n.js', 'js/ics.js', 'js/astro.js',
+const CACHE = 'terraluna-v3';
+const SHELL = ['./', 'index.html', 'css/styles.css', 'js/app.js', 'js/core.js', 'js/i18n.js', 'js/ics.js', 'js/astro.js', 'js/icons.js',
   'manifest.webmanifest', 'icons/icon.svg', 'data/index.json'];
 
 self.addEventListener('install', (e) => {

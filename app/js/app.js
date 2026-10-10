@@ -2,6 +2,7 @@ import * as C from './core.js';
 import { STRINGS, CROPS, inSeason } from './i18n.js';
 import { buildICS, buildDailyICS } from './ics.js';
 import { riseSet, PLACES } from './astro.js';
+import { svg, moonSvg, PHASE_AGE } from './icons.js';
 
 // ---------------------------------------------------------------- storage
 
@@ -56,11 +57,13 @@ function fmtTimeOn(unix, key) {
 function fmtDateTime(unix) {
   return `${fmtKey(C.keyOf(unix, settings.tz), { weekday: 'short', day: 'numeric', month: 'short' })} ${fmtTime(unix)}`;
 }
-const MOON_EMOJI = { new: '🌑', 'waxing-crescent': '🌒', first: '🌓', 'waxing-gibbous': '🌔', full: '🌕', 'waning-gibbous': '🌖', last: '🌗', 'waning-crescent': '🌘' };
-const icon = (el) => (el ? C.ELEMENTS[el].icon : '');
+const south = () => settings.hemisphere === 'south';
+const moonAt = (age, size) => moonSvg(age, { size, south: south() });
+const icon = (el, size = 20) => (el ? `<span class="ei el-${el}">${svg(el, { size })}</span>` : '');
+const WARN = (size = 18) => svg('warn', { size });
 const signName = (s) => `${C.GLYPHS[s]} ${t().signs[s]}`;
 const ascText = (asc) => (asc == null ? '' : asc ? t().ascending : t().descending);
-const arrow = (asc) => (asc == null ? '' : `<span class="arrow ${asc ? 'up' : 'down'}" aria-hidden="true">${asc ? '↑' : '↓'}</span>`);
+const arrow = (asc) => (asc == null ? '' : `<span class="arrow ${asc ? 'up' : 'down'}">${svg(asc ? 'up' : 'down', { size: 16 })}</span>`);
 const rng = (a, b) => `<bdi>${a}</bdi> – <bdi>${b}</bdi>`;
 const reasonText = (w) => [...new Set(w.reasons.map((r) => t().reason[r.type] + (r.note ? ` – ${r.note}` : '')))].join('; ');
 
@@ -200,7 +203,7 @@ function segBar(info) {
 
 function phaseMark(info) {
   const p = info.phaseEvents[0];
-  return p ? `<span aria-hidden="true" title="${esc(t().phase[p.phase])}">${MOON_EMOJI[p.phase]}</span>` : '';
+  return p ? `<span title="${esc(t().phase[p.phase])}">${moonAt(PHASE_AGE[p.phase], 16)}</span>` : '';
 }
 
 // ---------------------------------------------------------------- month view
@@ -237,9 +240,9 @@ function dayCell(key, { other, today }) {
   if (!hasDay(key)) return `<button type="button" class="cell el-none${other ? ' other' : ''}" data-key="${key}" tabindex="-1" disabled><span class="num">${n}</span></button>`;
   const info = day(key);
   const els = info.elements;
-  const icons = els.map((e) => `<span aria-hidden="true">${icon(e)}</span>`).join('') + (info.unfavorable.length ? '<span aria-hidden="true">⚠️</span>' : '');
+  const icons = els.map((e) => icon(e, 22)).join('') + (info.unfavorable.length ? WARN(20) : '');
   const label = els.map((e) => tt.part[e]).join(settings.lang === 'he' ? ' ← ' : ' → ');
-  const mine = myCropsFor(info).length ? '<span class="mine" aria-hidden="true">🌱</span>' : '';
+  const mine = myCropsFor(info).length ? `<span class="mine">${svg('sprout', { size: 16 })}</span>` : '';
   const cls = ['cell', `el-${info.mainElement || 'none'}`, other && 'other', today && 'today', key === state.date && 'selected', info.fullyUnfavorable && 'unf-all'].filter(Boolean).join(' ');
   return `<button type="button" class="${cls}" data-key="${key}" tabindex="${key === state.date ? 0 : -1}" aria-label="${esc(dayLabel(info))}"${today ? ' aria-current="date"' : ''}>
     <span class="num"><span>${n}</span></span>
@@ -298,7 +301,7 @@ function renderWeek(view) {
       for (const s of mergeForDisplay(info.segments)) {
         const top = ((s.start - info.start) / total) * 100;
         const h = ((s.end - s.start) / total) * 100;
-        const text = s.unfavorable ? `⚠️ ${tt.unfavorable}` : `${icon(s.element)} ${tt.part[s.element]}`;
+        const text = s.unfavorable ? `${WARN(14)} ${tt.unfavorable}` : `${icon(s.element, 14)} ${tt.part[s.element]}`;
         html += `<div class="blk el-${s.element}${s.unfavorable ? ' unf' : ''}" data-key="${k}" style="top:${top}%;height:${h}%">${h > 5 ? `${text} <small>${fmtTime(s.start)}</small>` : ''}</div>`;
       }
       const n = now();
@@ -341,11 +344,11 @@ function renderHour(view) {
     const segs = info.segments.filter((s) => s.end > a && s.start < b);
     const main = segs.reduce((x, s) => (Math.min(s.end, b) - Math.max(s.start, a) > Math.min(x.end, b) - Math.max(x.start, a) ? s : x), segs[0]);
     const unf = segs.some((s) => s.unfavorable);
-    const changes = segs.slice(1).map((s) => `→ ${icon(s.element)} ${tt.part[s.element]}${s.unfavorable ? ' ⚠️' : ''} ${fmtTime(s.start)}`);
+    const changes = segs.slice(1).map((s) => `${tt.dir === 'rtl' ? '←' : '→'} ${icon(s.element, 14)} ${tt.part[s.element]}${s.unfavorable ? ` ${WARN(14)}` : ''} ${fmtTime(s.start)}`);
     const here = events.filter((e) => e.t >= a && e.t < b).map((e) => `${e.icon} ${esc(e.text)} ${fmtTime(e.t)}`);
     html += `<li class="el-${main.element}${unf ? ' unf' : ''}${n >= a && n < b ? ' now' : ''}"${n >= a && n < b ? ' aria-current="time"' : ''}>
       <time datetime="${new Date(a * 1000).toISOString()}">${fmtTime(a)}</time>
-      <span><span aria-hidden="true">${icon(main.element)}</span> <b>${tt.dayType[main.element]}</b> · ${signName(main.sign)}${main.unfavorable ? ` · ⚠️ ${tt.unfavorable}` : ''}
+      <span>${icon(main.element)} <b>${tt.dayType[main.element]}</b> · ${signName(main.sign)}${main.unfavorable ? ` · ${WARN(16)} ${tt.unfavorable}` : ''}
         ${changes.length ? `<br><small>${changes.join(' ')}</small>` : ''}${here.length ? `<br><small>${here.join(' · ')}</small>` : ''}</span>
       <span class="flags">${arrow(main.ascending)} ${ascText(main.ascending)}</span>
     </li>`;
@@ -356,7 +359,7 @@ function renderHour(view) {
 function dayEvents(info) {
   const tt = t();
   const ev = [];
-  for (const p of info.phaseEvents) ev.push({ t: p.t, icon: MOON_EMOJI[p.phase], text: tt.phase[p.phase] });
+  for (const p of info.phaseEvents) ev.push({ t: p.t, icon: moonAt(PHASE_AGE[p.phase], 16), text: tt.phase[p.phase] });
   for (const x of info.nodes) ev.push({ t: x.t, icon: '☊', text: tt.reason[x.dir === 'asc' ? 'node-asc' : 'node-desc'] });
   for (const x of info.apsides) ev.push({ t: x.t, icon: x.type === 'perigee' ? '⊕' : '⊖', text: `${x.type === 'perigee' ? tt.reason.perigee : tt.apogee} (${x.km.toLocaleString(locale())} km)` });
   for (const x of info.eclipses) ev.push({ t: x.t, icon: '◐', text: tt.reason[`eclipse-${x.body}`] });
@@ -364,10 +367,11 @@ function dayEvents(info) {
   for (const p of info.signs) if (p.start >= info.start && p.start < info.end) ev.push({ t: p.start, icon: C.GLYPHS[p.sign], text: tt.moonIn(tt.signs[p.sign]) });
   const sk = sky(info);
   if (sk) {
-    for (const x of sk.moon.rise) ev.push({ t: x, icon: '🌙↑', text: tt.moonrise });
-    for (const x of sk.moon.set) ev.push({ t: x, icon: '🌙↓', text: tt.moonset });
-    for (const x of sk.sun.rise) ev.push({ t: x, icon: '☀️↑', text: tt.sunrise });
-    for (const x of sk.sun.set) ev.push({ t: x, icon: '☀️↓', text: tt.sunset });
+    const ic = (n, d) => `${svg(n, { size: 16 })}${svg(d, { size: 12 })}`;
+    for (const x of sk.moon.rise) ev.push({ t: x, icon: ic('moon', 'up'), text: tt.moonrise });
+    for (const x of sk.moon.set) ev.push({ t: x, icon: ic('moon', 'down'), text: tt.moonset });
+    for (const x of sk.sun.rise) ev.push({ t: x, icon: ic('sun', 'up'), text: tt.sunrise });
+    for (const x of sk.sun.set) ev.push({ t: x, icon: ic('sun', 'down'), text: tt.sunset });
   }
   return ev.sort((a, b) => a.t - b.t);
 }
@@ -382,24 +386,24 @@ function dayDetail(key, inDialog) {
   const headId = inDialog ? 'day-title' : 'day-view-title';
   const types = info.elements.map((e) => tt.dayType[e]).join(settings.lang === 'he' ? ' ← ' : ' → ');
   let html = `<div class="sheet-head"><div><h2 id="${headId}">${esc(fmtKey(key, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }))}</h2></div>
-    ${inDialog ? `<button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button>` : ''}</div>`;
+    ${inDialog ? `<button type="button" class="btn icon" data-close aria-label="${tt.close}">${svg('close')}</button>` : ''}</div>`;
 
   html += `<section class="day-hero el-${el}" aria-labelledby="${headId}-sum">
     <div class="row"><span class="big" aria-hidden="true">${info.elements.map(icon).join('')}</span>
     <div><h3 id="${headId}-sum">${esc(types)}</h3><p style="margin:0">${signText(info)}</p></div></div>
-    <p style="margin:0">${MOON_EMOJI[info.moon.name]} ${tt.phase[info.moon.name]} (${Math.round(info.moon.illumination * 100)}% ${tt.illum}) · ${arrow(info.ascending)} ${ascText(info.ascending)}</p>
-    <div class="row"><button type="button" class="btn small" data-speak>🔊 ${tt.summary.readAloud}</button>
-    <button type="button" class="btn small" data-ics>📅 ${tt.summary.addDay}</button>
-    <button type="button" class="btn small" data-print>🖨️ ${tt.print}</button></div></section>`;
+    <p class="row" style="margin:0;gap:.4rem">${moonAt(info.moon.age, 22)} ${tt.phase[info.moon.name]} (${Math.round(info.moon.illumination * 100)}% ${tt.illum}) · ${arrow(info.ascending)} ${ascText(info.ascending)}</p>
+    <div class="row"><button type="button" class="btn small" data-speak>${svg('speaker', { size: 18 })} ${tt.summary.readAloud}</button>
+    <button type="button" class="btn small" data-ics>${svg('calendar', { size: 18 })} ${tt.summary.addDay}</button>
+    <button type="button" class="btn small" data-print>${svg('print', { size: 18 })} ${tt.print}</button></div></section>`;
 
   for (const w of info.unfavorable) {
-    html += `<div class="warn" role="note"><b>⚠️ ${tt.unfavorableLong}: ${rng(fmtTimeOn(w.start, key), fmtTimeOn(w.end, key))}</b><br>${esc(reasonText(w))}<br><small>${tt.guidance.unfavorable}</small></div>`;
+    html += `<div class="warn" role="note"><b>${WARN(18)} ${tt.unfavorableLong}: ${rng(fmtTimeOn(w.start, key), fmtTimeOn(w.end, key))}</b><br>${esc(reasonText(w))}<br><small>${tt.guidance.unfavorable}</small></div>`;
   }
 
   html += `<section class="day-card"><h3>${tt.summary.timeline}</h3><ol class="timeline">`;
   for (const s of mergeForDisplay(info.segments)) {
     html += `<li class="el-${s.element}${s.unfavorable ? ' unf' : ''}"><time>${rng(fmtTime(s.start), s.end === info.end ? '24:00' : fmtTime(s.end))}</time>
-      <span>${icon(s.element)} <b>${tt.dayType[s.element]}</b> · ${signName(s.sign)} (${tt.element[s.element]})${s.unfavorable ? ` · ⚠️ <b>${tt.unfavorable}</b>` : ''}</span></li>`;
+      <span>${icon(s.element)} <b>${tt.dayType[s.element]}</b> · ${signName(s.sign)} (${tt.element[s.element]})${s.unfavorable ? ` · ${WARN(16)} <b>${tt.unfavorable}</b>` : ''}</span></li>`;
   }
   html += '</ol></section><div class="grid2">';
 
@@ -512,9 +516,9 @@ function renderFinder() {
   const sel = store.get('finder', { crop: settings.myCrops[0] || 'carrot', action: 'sow', days: 60 });
   if (!tt.actions[sel.action]) sel.action = 'sow';
   if (!CROPS.some((c) => c.id === sel.crop)) sel.crop = 'carrot';
-  const groups = Object.keys(C.ELEMENTS).map((e) => `<optgroup label="${icon(e)} ${tt.part[e]}">${CROPS.filter((c) => c.element === e)
+  const groups = Object.keys(C.ELEMENTS).map((e) => `<optgroup label="${tt.dayType[e]}">${CROPS.filter((c) => c.element === e)
     .map((c) => `<option value="${c.id}"${c.id === sel.crop ? ' selected' : ''}>${esc(c.name[settings.lang])}</option>`).join('')}</optgroup>`).join('');
-  body.innerHTML = `<div class="sheet-head"><h2 id="finder-title">${tt.finderTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button></div>
+  body.innerHTML = `<div class="sheet-head"><h2 id="finder-title">${tt.finderTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">${svg('close')}</button></div>
     <div class="row">
       <label class="field">${tt.finderCrop}<select id="f-crop">${groups}</select></label>
       <label class="field">${tt.finderAction}<select id="f-action">${Object.entries(tt.actions).map(([k, v]) => `<option value="${k}"${k === sel.action ? ' selected' : ''}>${v}</option>`).join('')}</select></label>
@@ -543,7 +547,7 @@ function renderFinder() {
       const best = preferAsc != null && w.ascending === preferAsc;
       const k = C.keyOf(w.start, settings.tz);
       return `<li class="el-${w.element}"><button type="button" data-key="${k}">${rng(fmtDateTime(w.start), fmtDateTime(w.end))}</button>
-        <span>${tt.hours(Math.round((w.end - w.start) / 3600))} · ${signName(w.sign)} · ${arrow(w.ascending)} ${ascText(w.ascending)}${best ? ` · <span class="best">★ ${tt.finderBest}</span>` : ''}</span></li>`;
+        <span>${tt.hours(Math.round((w.end - w.start) / 3600))} · ${signName(w.sign)} · ${arrow(w.ascending)} ${ascText(w.ascending)}${best ? ` · <span class="best">${svg('star', { size: 14 })} ${tt.finderBest}</span>` : ''}</span></li>`;
     }).join('') : `<li>${tt.finderNone}</li>`;
   };
   body.querySelectorAll('select, #f-all').forEach((s) => s.addEventListener('change', run));
@@ -570,12 +574,12 @@ function renderSubscribe() {
   const body = $('#subscribe-body');
   const base = new URL('calendar/', location.href);
   const local = ['localhost', '127.0.0.1', ''].includes(location.hostname);
-  let html = `<div class="sheet-head"><h2 id="subscribe-title">${tt.subscribeTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button></div>
-    <p>${tt.subscribeIntro}</p>${local ? '<p class="warn">⚠️ Subscriptions need the app to be published on a public address (e.g. GitHub Pages). Downloads work everywhere.</p>' : ''}`;
+  let html = `<div class="sheet-head"><h2 id="subscribe-title">${tt.subscribeTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">${svg('close')}</button></div>
+    <p>${tt.subscribeIntro}</p>${local ? `<p class="warn">${WARN(16)} Subscriptions need the app to be published on a public address (e.g. GitHub Pages). Downloads work everywhere.</p>` : ''}`;
   for (const [id, label] of Object.entries(tt.feeds)) {
     const https = new URL(`terraluna-${id}-${settings.lang}.ics`, base).href;
     const webcal = https.replace(/^https?:/, 'webcal:');
-    const elIcon = C.ELEMENTS[id] ? icon(id) : id === 'unfavorable' ? '⚠️' : '🌙';
+    const elIcon = C.ELEMENTS[id] ? icon(id) : id === 'unfavorable' ? WARN(20) : id === 'daily' ? svg('bell') : svg('moon');
     html += `<div class="feed"><b>${elIcon} ${label}</b><div class="row">
       <a class="btn small" href="https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}" target="_blank" rel="noopener">${tt.google}</a>
       <a class="btn small" href="${esc(webcal)}">${tt.apple}</a>
@@ -583,13 +587,13 @@ function renderSubscribe() {
       <a class="btn small" href="${esc(https)}" download>${tt.download}</a>
       <button type="button" class="btn small" data-copy="${esc(https)}">${tt.copy}</button></div></div>`;
   }
-  html += `<details class="day-card" style="margin-top:1rem"><summary><b>🔔 ${tt.remindTitle}</b></summary>${tt.remindHow.map((p) => `<p>${esc(p)}</p>`).join('')}</details>`;
+  html += `<details class="day-card" style="margin-top:1rem"><summary><b>${svg('bell', { size: 18 })} ${tt.remindTitle}</b></summary>${tt.remindHow.map((p) => `<p>${esc(p)}</p>`).join('')}</details>`;
   html += `<fieldset style="margin-top:1rem"><legend>${tt.exportCustom}</legend>
     <div class="row"><label class="check"><input type="radio" name="x-type" value="periods" checked> ${tt.exportPeriods}</label>
     <label class="check"><input type="radio" name="x-type" value="daily"> ${tt.exportDaily}</label></div>
     <label class="field">${tt.reminder}<select id="x-rem">${Object.entries(tt.reminders).map(([k, v]) => `<option value="${k}">${v}</option>`).join('')}</select></label>
     <div class="row">${Object.keys(C.ELEMENTS).map((e) => `<label class="check"><input type="checkbox" name="x-el" value="${e}" checked> ${icon(e)} ${tt.part[e]}</label>`).join('')}
-    <label class="check"><input type="checkbox" id="x-unf" checked> ⚠️ ${tt.unfavorable}</label></div>
+    <label class="check"><input type="checkbox" id="x-unf" checked> ${WARN(18)} ${tt.unfavorable}</label></div>
     <div class="row"><label class="field">${tt.exportMonths}<input type="number" id="x-months" min="1" max="36" value="12"></label>
     <button type="button" class="btn primary" id="x-go">${tt.exportBtn}</button></div></fieldset><p class="muted"><small>${tt.feedNote}</small></p>`;
   body.innerHTML = html;
@@ -643,7 +647,7 @@ function renderSettings() {
   const opt = (v, label, cur) => `<option value="${esc(v)}"${String(v) === String(cur) ? ' selected' : ''}>${esc(label)}</option>`;
   const check = (k, label) => `<label class="check"><input type="checkbox" data-set="${k}"${settings[k] ? ' checked' : ''}> ${label}</label>`;
   const meta = state.model?.meta || { ephemeris: 'Swiss Ephemeris', ayanamsa: 'lahiri' };
-  body.innerHTML = `<div class="sheet-head"><h2 id="settings-title">${tt.settings}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button></div>
+  body.innerHTML = `<div class="sheet-head"><h2 id="settings-title">${tt.settings}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">${svg('close')}</button></div>
   <fieldset><legend>${s.language} · ${s.timezone}</legend>
     <label class="field">${s.language}<select data-set="lang">${opt('he', 'עברית', settings.lang)}${opt('en', 'English', settings.lang)}</select></label>
     <label class="field">${s.timezone}<select data-set="tz">${zones.map((z) => opt(z, z, settings.tz)).join('')}</select></label>
@@ -677,7 +681,7 @@ function renderSettings() {
     <div class="row"><button type="button" class="btn primary" id="thun-save">${s.thunSave}</button><span id="thun-msg" role="status"></span></div>
   </fieldset>
   <fieldset><legend>${s.transfer}</legend><p class="muted">${s.transferHint}</p>
-    <button type="button" class="btn small" id="transfer">🔗 ${s.transferBtn}</button>
+    <button type="button" class="btn small" id="transfer">${svg('link', { size: 18 })} ${s.transferBtn}</button>
   </fieldset>
   <fieldset><legend>${s.data}</legend><div class="row">
     <button type="button" class="btn small" id="j-export">${s.exportJournal}</button>
@@ -803,7 +807,7 @@ function renderGuide() {
   const tt = t();
   const body = $('#guide-body');
   const meta = state.model?.meta || { ephemeris: 'Swiss Ephemeris', ayanamsa: 'lahiri' };
-  body.innerHTML = `<div class="sheet-head"><h2 id="guide-title">${tt.guideTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button></div>
+  body.innerHTML = `<div class="sheet-head"><h2 id="guide-title">${tt.guideTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">${svg('close')}</button></div>
     <p><b>${esc(tt.zodiacBadge)}</b><br>${esc(tt.zodiacNote)}</p>${tt.guideBody.map((p) => `<p>${esc(p)}</p>`).join('')}<p class="muted"><small>${esc(tt.set.about(meta))}</small></p>`;
   body.querySelector('[data-close]').addEventListener('click', () => $('#dlg-guide').close());
 }
@@ -812,13 +816,13 @@ function renderSeasons() {
   const tt = t();
   const body = $('#seasons-body');
   const cur = monthOf(todayKey());
-  let html = `<div class="sheet-head"><h2 id="seasons-title">${tt.seasonsTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button></div>
+  let html = `<div class="sheet-head"><h2 id="seasons-title">${tt.seasonsTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">${svg('close')}</button></div>
     <p class="muted">${tt.seasonsHint}</p><div class="season-wrap"><table class="season"><caption class="sr">${tt.seasonsTitle}</caption>
     <thead><tr><th scope="col"></th>${tt.months.map((m, i) => `<th scope="col"${i + 1 === cur ? ' class="cur"' : ''}>${m}</th>`).join('')}</tr></thead><tbody>`;
   for (const e of Object.keys(C.ELEMENTS)) {
     html += `<tr class="grp"><th colspan="13" scope="rowgroup">${icon(e)} ${tt.dayType[e]}</th></tr>`;
     for (const c of CROPS.filter((x) => x.element === e)) {
-      html += `<tr class="el-${e}"><th scope="row">${settings.myCrops.includes(c.id) ? '🌱 ' : ''}${esc(c.name[settings.lang])}</th>`
+      html += `<tr class="el-${e}"><th scope="row">${settings.myCrops.includes(c.id) ? `${svg('sprout', { size: 14 })} ` : ''}${esc(c.name[settings.lang])}</th>`
         + tt.months.map((m, i) => (c.months.includes(i + 1)
           ? `<td class="on${i + 1 === cur ? ' cur' : ''}"><span class="sr">${m} ✓</span></td>`
           : `<td${i + 1 === cur ? ' class="cur"' : ''}></td>`)).join('') + '</tr>';
@@ -826,6 +830,22 @@ function renderSeasons() {
   }
   body.innerHTML = `${html}</tbody></table></div>`;
   body.querySelector('[data-close]').addEventListener('click', () => $('#dlg-seasons').close());
+}
+
+function renderWelcome() {
+  const tt = t();
+  const el = $('#welcome');
+  if (store.get('welcomed', false)) { el.hidden = true; return; }
+  el.hidden = false;
+  el.innerHTML = `<div class="welcome-art">${['earth', 'water', 'air', 'fire'].map((e) => icon(e, 30)).join('')}</div>
+    <div><h2 id="welcome-title">${tt.welcomeTitle}</h2><ul>${tt.welcomeText.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>
+    <div class="row"><button type="button" class="btn primary" data-welcome="ok">${tt.welcomeOk}</button>
+    <button type="button" class="btn" data-welcome="guide">${svg('book', { size: 18 })} ${tt.welcomeGuide}</button></div></div>`;
+  el.querySelectorAll('[data-welcome]').forEach((b) => b.addEventListener('click', () => {
+    store.set('welcomed', true);
+    el.hidden = true;
+    if (b.dataset.welcome === 'guide') { renderGuide(); $('#dlg-guide').showModal(); }
+  }));
 }
 
 /** "Today: root until 13:43 → flower · Tomorrow: …" above every view. */
@@ -838,7 +858,7 @@ function renderStrip() {
     if (!hasDay(k)) continue;
     const d = day(k);
     const types = d.signs.map((p, i) => `${icon(p.element)} ${tt.part[p.element]}${i ? ` <bdi>${fmtTime(p.start)}</bdi>` : ''}`).join(tt.dir === 'rtl' ? ' ← ' : ' → ');
-    const unf = d.unfavorable.map((w) => `⚠️ ${rng(fmtTimeOn(w.start, k), fmtTimeOn(w.end, k))}`).join(' ');
+    const unf = d.unfavorable.map((w) => `${WARN(16)} ${rng(fmtTimeOn(w.start, k), fmtTimeOn(w.end, k))}`).join(' ');
     parts.push(`<button type="button" class="strip-day el-${d.mainElement}" data-key="${k}"><b>${label}</b> ${types}${unf ? ` <span class="strip-unf">${unf}</span>` : ''}</button>`);
   }
   el.innerHTML = parts.join('');
@@ -859,8 +879,10 @@ function applySettings() {
   document.title = `${tt.appName} · ${tt.tagline}`;
   document.querySelectorAll('[data-t]').forEach((el) => { el.textContent = tt[el.dataset.t]; });
   document.querySelectorAll('[data-view]').forEach((b) => { b.textContent = tt.views[b.dataset.view]; });
-  $('#legend').innerHTML = Object.keys(C.ELEMENTS).map((e) => `<span><i class="swatch el-${e}"></i>${icon(e)} ${tt.part[e]} (${tt.element[e]})</span>`).join('')
-    + `<span><i class="swatch unf"></i>⚠️ ${tt.unfavorable}</span><span>${arrow(true)} ${tt.ascending}</span><span>${arrow(false)} ${tt.descending}</span>`
+  document.querySelectorAll('[data-icon]').forEach((el) => { el.innerHTML = svg(el.dataset.icon, { size: 20 }); });
+  renderWelcome();
+  $('#legend').innerHTML = Object.keys(C.ELEMENTS).map((e) => `<span>${icon(e, 18)} ${tt.part[e]} <span class="muted">(${tt.element[e]})</span></span>`).join('')
+    + `<span><i class="swatch unf"></i>${tt.unfavorable}</span><span>${arrow(true)} ${tt.ascending}</span><span>${arrow(false)} ${tt.descending}</span>`
     + `<span><b title="${esc(tt.zodiacNote)}">${tt.zodiacBadge}</b></span>`;
 }
 
@@ -941,6 +963,22 @@ function wire() {
   document.querySelectorAll('dialog').forEach((d) => d.addEventListener('click', (e) => { if (e.target === d) d.close(); }));
   window.addEventListener('hashchange', () => { if (readHash()) render(); });
   $('#print').addEventListener('click', () => window.print());
+  $('#tab-cal').addEventListener('click', () => { state.view = 'month'; store.set('view', 'month'); go(todayKey()); });
+  const box = $('#legend-box');
+  box.open = !matchMedia('(max-width: 640px)').matches;
+  // Swipe sideways to move to the previous / next period.
+  let touch = null;
+  $('main').addEventListener('touchstart', (e) => { const p = e.touches[0]; touch = { x: p.clientX, y: p.clientY }; }, { passive: true });
+  $('main').addEventListener('touchend', (e) => {
+    if (!touch) return;
+    const p = e.changedTouches[0];
+    const dx = p.clientX - touch.x;
+    const dy = p.clientY - touch.y;
+    touch = null;
+    if (Math.abs(dx) < 70 || Math.abs(dy) > Math.abs(dx) * 0.6) return;
+    const forward = t().dir === 'rtl' ? dx > 0 : dx < 0;
+    step(forward ? 1 : -1);
+  }, { passive: true });
   $('#strip').addEventListener('click', (e) => {
     const b = e.target.closest('[data-key]');
     if (b) { state.date = b.dataset.key; openDay(b.dataset.key); }
