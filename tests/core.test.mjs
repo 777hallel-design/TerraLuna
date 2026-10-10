@@ -56,3 +56,9 @@ test('zodiac is sidereal, not tropical', () => {
   // 10 Oct 2026 12:00 UT: tropical Libra 15°, sidereal (Lahiri) Virgo 21°
   assert.equal(SIGNS[signAt(model, utc('2026-10-10T12:00Z')).sign], 'virgo');
 });
+
+test('main moon phases are only named close to the exact moment', () => {
+  assert.equal(dayInfo(model, '2026-10-10', 'UTC').moon.name, 'new');
+  assert.equal(dayInfo(model, '2026-10-12', 'UTC').moon.name, 'waxing-crescent');
+  assert.equal(dayInfo(model, '2026-10-26', 'UTC').moon.name, 'full');
+});

@@ -210,8 +210,11 @@ export function moonPhaseAt(model, t) {
   else if (next) age = 1 - ((next.t - t) % SYNODIC) / SYNODIC;
   else age = 0;
   const illumination = (1 - Math.cos(2 * Math.PI * age)) / 2;
-  const names = ['new', 'waxing-crescent', 'first', 'waxing-gibbous', 'full', 'waning-gibbous', 'last', 'waning-crescent'];
-  const name = names[Math.floor(((age * 8) + 0.5) % 8)];
+  // The four main phases are named only within about a day of the exact moment.
+  const main = Math.round(age * 4) % 4;
+  const near = Math.abs(age * 4 - Math.round(age * 4)) < 0.14;
+  const name = near ? ['new', 'first', 'full', 'last'][main]
+    : ['waxing-crescent', 'waxing-gibbous', 'waning-gibbous', 'waning-crescent'][Math.floor(age * 4)];
   return { age, illumination, name, waxing: age < 0.5 };
 }
 

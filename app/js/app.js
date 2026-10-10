@@ -1,6 +1,7 @@
 import * as C from './core.js';
-import { STRINGS, CROPS } from './i18n.js';
-import { buildICS } from './ics.js';
+import { STRINGS, CROPS, inSeason } from './i18n.js';
+import { buildICS, buildDailyICS } from './ics.js';
+import { riseSet, PLACES } from './astro.js';
 
 // ---------------------------------------------------------------- storage
 
@@ -19,6 +20,9 @@ const DEFAULTS = {
   contrast: false, motion: false, patterns: false,
   nodeHours: C.DEFAULT_OPTIONS.nodeHours, perigeeHours: C.DEFAULT_OPTIONS.perigeeHours,
   eclipseHours: C.DEFAULT_OPTIONS.eclipseHours, myCrops: [],
+  // Defaults for people in Israel: Jerusalem for rise/set, Israeli sowing seasons.
+  place: browserTz === 'Asia/Jerusalem' ? 'jerusalem' : 'none', lat: null, lon: null,
+  region: browserTz === 'Asia/Jerusalem' ? 'israel' : 'none',
 };
 const settings = { ...DEFAULTS, ...store.get('settings', {}) };
 let thun = store.get('thun', []); // [{start, end, note}] unix seconds
@@ -113,6 +117,28 @@ const hasDay = (key) => {
   return state.model && C.coversRange(state.model, a, b);
 };
 const yearOf = (key) => C.parseKey(key).y;
+const monthOf = (key) => C.parseKey(key).m;
+
+/** {lat, lon} for rise/set times, or null when no location is set. */
+function currentPlace() {
+  if (settings.place === 'none') return null;
+  if (settings.place === 'geo' || settings.place === 'custom') {
+    return settings.lat != null && settings.lon != null ? { lat: +settings.lat, lon: +settings.lon } : null;
+  }
+  return PLACES.find((p) => p.id === settings.place) || null;
+}
+/** Is this crop sown in this month? Always true without a season region. */
+const seasonOk = (crop, key) => settings.region !== 'israel' || inSeason(crop, monthOf(key));
+const monthList = (months) => months.map((m) => t().months[m - 1]).join(', ');
+
+const skyCache = new Map();
+function sky(info) {
+  const place = currentPlace();
+  if (!place) return null;
+  const k = `${info.key}|${place.lat}|${place.lon}|${settings.tz}`;
+  if (!skyCache.has(k)) skyCache.set(k, { moon: riseSet('moon', info.start, info.end, place), sun: riseSet('sun', info.start, info.end, place) });
+  return skyCache.get(k);
+}
 
 // ---------------------------------------------------------------- descriptions
 
@@ -152,7 +178,7 @@ function dayLabel(info) {
 
 function myCropsFor(info) {
   const els = new Set(Object.entries(info.favorable).filter(([, s]) => s >= 2 * 3600).map(([e]) => e));
-  return CROPS.filter((c) => settings.myCrops.includes(c.id) && els.has(c.element));
+  return CROPS.filter((c) => settings.myCrops.includes(c.id) && els.has(c.element) && seasonOk(c, info.key));
 }
 
 function speechText(info) {
@@ -336,6 +362,13 @@ function dayEvents(info) {
   for (const x of info.eclipses) ev.push({ t: x.t, icon: '◐', text: tt.reason[`eclipse-${x.body}`] });
   for (const x of info.turning) ev.push({ t: x.t, icon: x.type === 'min' ? '↑' : '↓', text: tt.turning[settings.hemisphere === 'south' ? (x.type === 'min' ? 'max' : 'min') : x.type] });
   for (const p of info.signs) if (p.start >= info.start && p.start < info.end) ev.push({ t: p.start, icon: C.GLYPHS[p.sign], text: tt.moonIn(tt.signs[p.sign]) });
+  const sk = sky(info);
+  if (sk) {
+    for (const x of sk.moon.rise) ev.push({ t: x, icon: '🌙↑', text: tt.moonrise });
+    for (const x of sk.moon.set) ev.push({ t: x, icon: '🌙↓', text: tt.moonset });
+    for (const x of sk.sun.rise) ev.push({ t: x, icon: '☀️↑', text: tt.sunrise });
+    for (const x of sk.sun.set) ev.push({ t: x, icon: '☀️↓', text: tt.sunset });
+  }
   return ev.sort((a, b) => a.t - b.t);
 }
 
@@ -356,7 +389,8 @@ function dayDetail(key, inDialog) {
     <div><h3 id="${headId}-sum">${esc(types)}</h3><p style="margin:0">${signText(info)}</p></div></div>
     <p style="margin:0">${MOON_EMOJI[info.moon.name]} ${tt.phase[info.moon.name]} (${Math.round(info.moon.illumination * 100)}% ${tt.illum}) · ${arrow(info.ascending)} ${ascText(info.ascending)}</p>
     <div class="row"><button type="button" class="btn small" data-speak>🔊 ${tt.summary.readAloud}</button>
-    <button type="button" class="btn small" data-ics>📅 ${tt.summary.addDay}</button></div></section>`;
+    <button type="button" class="btn small" data-ics>📅 ${tt.summary.addDay}</button>
+    <button type="button" class="btn small" data-print>🖨️ ${tt.print}</button></div></section>`;
 
   for (const w of info.unfavorable) {
     html += `<div class="warn" role="note"><b>⚠️ ${tt.unfavorableLong}: ${rng(fmtTimeOn(w.start, key), fmtTimeOn(w.end, key))}</b><br>${esc(reasonText(w))}<br><small>${tt.guidance.unfavorable}</small></div>`;
@@ -372,9 +406,13 @@ function dayDetail(key, inDialog) {
   for (const e of info.elements) {
     const g = tt.guidance[e];
     const crops = CROPS.filter((c) => c.element === e);
+    const now_ = crops.filter((c) => seasonOk(c, key));
+    const later = crops.filter((c) => !seasonOk(c, key));
+    const chips = (list) => list.map((c) => `<li class="chip${settings.myCrops.includes(c.id) ? ' mine' : ''}">${esc(c.name[settings.lang])}</li>`).join('');
     html += `<section class="day-card el-${e}" style="border-top:6px solid var(--c)"><h3>${icon(e)} ${tt.dayType[e]} · ${tt.element[e]}</h3>
       <p><b>${tt.summary.sow}:</b> ${g.sow}</p><p><b>${tt.summary.harvest}:</b> ${g.harvest}</p>
-      <b>${tt.summary.crops}:</b><ul class="chips">${crops.map((c) => `<li class="chip${settings.myCrops.includes(c.id) ? ' mine' : ''}">${esc(c.name[settings.lang])}</li>`).join('')}</ul></section>`;
+      <b>${settings.region === 'israel' ? tt.inSeasonNow : tt.summary.crops}:</b><ul class="chips">${chips(now_)}</ul>
+      ${later.length ? `<details><summary class="muted">${tt.outOfSeason} (${later.length})</summary><ul class="chips dim">${chips(later)}</ul></details>` : ''}</section>`;
   }
 
   const notes = [];
@@ -382,6 +420,12 @@ function dayDetail(key, inDialog) {
   if (['new', 'full'].includes(info.moon.name) || info.phaseEvents.some((p) => ['new', 'full'].includes(p.phase))) {
     notes.push(tt.guidance.phase[info.phaseEvents.find((p) => ['new', 'full'].includes(p.phase))?.phase || info.moon.name]);
   } else notes.push(tt.guidance.phase[info.moon.waxing ? 'waxing' : 'waning']);
+  const sk = sky(info);
+  if (!sk) notes.push(`<small class="muted">${tt.setPlace}</small>`);
+  else {
+    if (!sk.moon.rise.length) notes.push(tt.noMoonrise);
+    if (!sk.moon.set.length) notes.push(tt.noMoonset);
+  }
   const events = dayEvents(info);
   html += `<section class="day-card"><h3>${tt.summary.moon}</h3>${notes.map((n) => `<p>${n}</p>`).join('')}
     ${events.length ? `<h4>${tt.summary.events}</h4><dl class="facts">${events.map((e) => `<dt>${fmtTime(e.t)}</dt><dd>${e.icon} ${esc(e.text)}</dd>`).join('')}</dl>` : ''}</section>`;
@@ -405,6 +449,7 @@ function wireDetail(root, key) {
     const info = day(key);
     downloadICS(buildICS(state.model, { from: info.start, to: info.end, lang: settings.lang }), `terraluna-${key}.ics`);
   });
+  root.querySelector('[data-print]')?.addEventListener('click', () => window.print());
   const ta = root.querySelector('[data-note]');
   ta?.addEventListener('input', () => {
     if (ta.value.trim()) journal[key] = ta.value; else delete journal[key];
@@ -474,19 +519,26 @@ function renderFinder() {
       <label class="field">${tt.finderCrop}<select id="f-crop">${groups}</select></label>
       <label class="field">${tt.finderAction}<select id="f-action">${Object.entries(tt.actions).map(([k, v]) => `<option value="${k}"${k === sel.action ? ' selected' : ''}>${v}</option>`).join('')}</select></label>
       <label class="field">${tt.finderRange}<select id="f-days">${[14, 30, 60, 90, 180].map((n) => `<option value="${n}"${n === +sel.days ? ' selected' : ''}>${tt.rangeDays(n)}</option>`).join('')}</select></label>
-    </div><p id="f-note" class="muted"></p><ol class="windows" id="f-out" aria-live="polite"></ol>`;
+    </div>${settings.region === 'israel' ? `<label class="check"><input type="checkbox" id="f-all"${sel.all ? ' checked' : ''}> ${tt.finderAllSeasons}</label>` : ''}
+    <p id="f-note" class="muted"></p><ol class="windows" id="f-out" aria-live="polite"></ol>`;
   body.querySelector('[data-close]').addEventListener('click', () => $('#dlg-finder').close());
   const run = async () => {
     const crop = CROPS.find((c) => c.id === $('#f-crop').value);
     const action = $('#f-action').value;
     const days = +$('#f-days').value;
-    store.set('finder', { crop: crop.id, action, days });
+    const all = !!$('#f-all')?.checked;
+    store.set('finder', { crop: crop.id, action, days, all });
     const a = Math.max(now(), C.dayRange(todayKey(), settings.tz)[0]);
     const b = a + days * 86400;
     await ensureYears(yearOf(todayKey()), new Date(b * 1000).getUTCFullYear());
     const preferAsc = action === 'harvest' ? crop.element !== 'earth' : null;
-    $('#f-note').textContent = action === 'harvest' ? (crop.element === 'earth' ? tt.finderNoteHarvestRoot : tt.finderNoteHarvest) : '';
-    const wins = C.findWindows(state.model, a, b, crop.element, { minHours: 2 });
+    let wins = C.findWindows(state.model, a, b, crop.element, { minHours: 2 });
+    // Seasons are about sowing; harvesting follows the crop, whatever the month.
+    const filterSeason = action === 'sow' && settings.region === 'israel' && !all;
+    const before = wins.length;
+    if (filterSeason) wins = wins.filter((w) => seasonOk(crop, C.keyOf(w.start, settings.tz)));
+    $('#f-note').textContent = action === 'harvest' ? (crop.element === 'earth' ? tt.finderNoteHarvestRoot : tt.finderNoteHarvest)
+      : filterSeason && wins.length < before && !wins.length ? tt.finderOutOfSeason(crop.name[settings.lang], monthList(crop.months)) : '';
     $('#f-out').innerHTML = wins.length ? wins.map((w) => {
       const best = preferAsc != null && w.ascending === preferAsc;
       const k = C.keyOf(w.start, settings.tz);
@@ -494,7 +546,7 @@ function renderFinder() {
         <span>${tt.hours(Math.round((w.end - w.start) / 3600))} · ${signName(w.sign)} · ${arrow(w.ascending)} ${ascText(w.ascending)}${best ? ` · <span class="best">★ ${tt.finderBest}</span>` : ''}</span></li>`;
     }).join('') : `<li>${tt.finderNone}</li>`;
   };
-  body.querySelectorAll('select').forEach((s) => s.addEventListener('change', run));
+  body.querySelectorAll('select, #f-all').forEach((s) => s.addEventListener('change', run));
   $('#f-out').addEventListener('click', (e) => {
     const b = e.target.closest('[data-key]');
     if (b) { $('#dlg-finder').close(); go(b.dataset.key); openDay(b.dataset.key); }
@@ -531,7 +583,11 @@ function renderSubscribe() {
       <a class="btn small" href="${esc(https)}" download>${tt.download}</a>
       <button type="button" class="btn small" data-copy="${esc(https)}">${tt.copy}</button></div></div>`;
   }
+  html += `<details class="day-card" style="margin-top:1rem"><summary><b>🔔 ${tt.remindTitle}</b></summary>${tt.remindHow.map((p) => `<p>${esc(p)}</p>`).join('')}</details>`;
   html += `<fieldset style="margin-top:1rem"><legend>${tt.exportCustom}</legend>
+    <div class="row"><label class="check"><input type="radio" name="x-type" value="periods" checked> ${tt.exportPeriods}</label>
+    <label class="check"><input type="radio" name="x-type" value="daily"> ${tt.exportDaily}</label></div>
+    <label class="field">${tt.reminder}<select id="x-rem">${Object.entries(tt.reminders).map(([k, v]) => `<option value="${k}">${v}</option>`).join('')}</select></label>
     <div class="row">${Object.keys(C.ELEMENTS).map((e) => `<label class="check"><input type="checkbox" name="x-el" value="${e}" checked> ${icon(e)} ${tt.part[e]}</label>`).join('')}
     <label class="check"><input type="checkbox" id="x-unf" checked> ⚠️ ${tt.unfavorable}</label></div>
     <div class="row"><label class="field">${tt.exportMonths}<input type="number" id="x-months" min="1" max="36" value="12"></label>
@@ -547,7 +603,9 @@ function renderSubscribe() {
     const b = a + months * 30.44 * 86400;
     await ensureYears(yearOf(todayKey()), new Date(b * 1000).getUTCFullYear());
     const elements = [...body.querySelectorAll('[name="x-el"]:checked')].map((i) => i.value);
-    downloadICS(buildICS(state.model, { from: a, to: Math.min(b, state.model.end), lang: settings.lang, elements, unfavorable: $('#x-unf').checked }), 'terraluna.ics');
+    const o = { from: a, to: Math.min(b, state.model.end), lang: settings.lang, elements, unfavorable: $('#x-unf').checked, reminder: $('#x-rem').value };
+    const daily = body.querySelector('[name="x-type"]:checked').value === 'daily';
+    downloadICS(daily ? buildDailyICS(state.model, { ...o, tz: settings.tz }) : buildICS(state.model, o), 'terraluna.ics');
   });
 }
 
@@ -591,6 +649,15 @@ function renderSettings() {
     <label class="field">${s.timezone}<select data-set="tz">${zones.map((z) => opt(z, z, settings.tz)).join('')}</select></label>
     <label class="field">${s.weekStart}<select data-set="weekStart">${opt('', '—', settings.weekStart ?? '')}${[0, 1, 6].map((d) => opt(d, tt.weekdays[d], settings.weekStart ?? '')).join('')}</select></label>
     <label class="field">${s.hemisphere}<select data-set="hemisphere">${opt('north', s.north, settings.hemisphere)}${opt('south', s.south, settings.hemisphere)}</select></label>
+    <label class="field">${s.region}<select data-set="region">${opt('israel', s.regionIsrael, settings.region)}${opt('none', s.regionNone, settings.region)}</select></label>
+  </fieldset>
+  <fieldset><legend>${s.place}</legend>
+    <label class="field">${s.place}<select id="place">${opt('none', s.placeNone, settings.place)}${PLACES.map((p) => opt(p.id, p.name[settings.lang], settings.place)).join('')}
+      ${opt('geo', s.placeGeo, settings.place)}${opt('custom', s.placeCustom, settings.place)}</select></label>
+    <div class="row" id="coords"${['geo', 'custom'].includes(settings.place) ? '' : ' hidden'}>
+      <label class="field">${s.lat}<input type="number" step="0.0001" min="-90" max="90" id="lat" value="${settings.lat ?? ''}"></label>
+      <label class="field">${s.lon}<input type="number" step="0.0001" min="-180" max="180" id="lon" value="${settings.lon ?? ''}"></label>
+    </div>
   </fieldset>
   <fieldset><legend>${s.theme}</legend>
     <label class="field">${s.theme}<select data-set="theme">${opt('auto', s.themeAuto, settings.theme)}${opt('light', s.themeLight, settings.theme)}${opt('dark', s.themeDark, settings.theme)}</select></label>
@@ -609,6 +676,9 @@ function renderSettings() {
     <textarea id="thun" dir="ltr" placeholder="${esc(s.thunExample)}">${esc(thunText())}</textarea>
     <div class="row"><button type="button" class="btn primary" id="thun-save">${s.thunSave}</button><span id="thun-msg" role="status"></span></div>
   </fieldset>
+  <fieldset><legend>${s.transfer}</legend><p class="muted">${s.transferHint}</p>
+    <button type="button" class="btn small" id="transfer">🔗 ${s.transferBtn}</button>
+  </fieldset>
   <fieldset><legend>${s.data}</legend><div class="row">
     <button type="button" class="btn small" id="j-export">${s.exportJournal}</button>
     <label class="btn small">${s.importJournal}<input type="file" id="j-import" accept="application/json" class="sr"></label></div>
@@ -624,6 +694,29 @@ function renderSettings() {
     saveSettings();
     if (k === 'lang') renderSettings();
   }));
+  $('#place').addEventListener('change', (e) => {
+    settings.place = e.target.value;
+    $('#coords').hidden = !['geo', 'custom'].includes(settings.place);
+    if (settings.place === 'geo') {
+      navigator.geolocation?.getCurrentPosition((pos) => {
+        settings.lat = Math.round(pos.coords.latitude * 1e4) / 1e4;
+        settings.lon = Math.round(pos.coords.longitude * 1e4) / 1e4;
+        $('#lat').value = settings.lat;
+        $('#lon').value = settings.lon;
+        saveSettings();
+      }, () => toast(s.geoError), { timeout: 15000 });
+    }
+    saveSettings();
+  });
+  for (const id of ['lat', 'lon']) {
+    $(`#${id}`).addEventListener('change', (e) => {
+      const v = e.target.value === '' ? null : +e.target.value;
+      settings[id] = v;
+      if (settings.place !== 'custom') { settings.place = 'custom'; $('#place').value = 'custom'; }
+      saveSettings();
+    });
+  }
+  $('#transfer').addEventListener('click', () => shareTransfer());
   body.querySelectorAll('[data-scale]').forEach((b) => b.addEventListener('click', () => {
     settings.scale = Math.round(Math.min(1.6, Math.max(0.85, settings.scale + 0.1 * b.dataset.scale)) * 100) / 100;
     $('#scale-out').textContent = `${Math.round(settings.scale * 100)}%`;
@@ -660,11 +753,49 @@ function renderSettings() {
   });
 }
 
+// ---------------------------------------------------------------- moving data to another device
+
+const b64url = (bytes) => btoa(String.fromCharCode(...bytes)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+const unb64url = (s) => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/')), (c) => c.charCodeAt(0));
+async function pipe(bytes, stream) {
+  return new Uint8Array(await new Response(new Blob([bytes]).stream().pipeThrough(stream)).arrayBuffer());
+}
+
+async function shareTransfer() {
+  const s = t().set;
+  const raw = new TextEncoder().encode(JSON.stringify({ v: 1, journal, settings, thun }));
+  const packed = 'CompressionStream' in window ? `z${b64url(await pipe(raw, new CompressionStream('gzip')))}` : `j${b64url(raw)}`;
+  const url = `${location.origin}${location.pathname}#import=${packed}`;
+  try {
+    if (navigator.share) { await navigator.share({ title: t().appName, text: s.transferReady, url }); return; }
+  } catch { /* cancelled */ }
+  try { await navigator.clipboard.writeText(url); toast(t().copied); } catch { prompt(s.transferReady, url); }
+}
+
+async function importTransfer() {
+  const m = /^#import=([zj])([\w-]+)$/.exec(location.hash);
+  if (!m) return;
+  history.replaceState(null, '', location.pathname);
+  try {
+    let bytes = unb64url(m[2]);
+    if (m[1] === 'z') bytes = await pipe(bytes, new DecompressionStream('gzip'));
+    const d = JSON.parse(new TextDecoder().decode(bytes));
+    if (!confirm(t().set.transferAsk(Object.keys(d.journal || {}).length))) return;
+    Object.assign(journal, d.journal || {});
+    store.set('journal', journal);
+    if (Array.isArray(d.thun)) { thun = d.thun; store.set('thun', thun); }
+    if (d.settings) { Object.assign(settings, d.settings); store.set('settings', settings); }
+    applySettings();
+    toast(t().set.transferDone);
+  } catch { toast('✗'); }
+}
+
 function saveSettings() {
   store.set('settings', settings);
   applySettings();
   rebuildModel();
   state.days.clear();
+  skyCache.clear();
   render();
 }
 
@@ -675,6 +806,42 @@ function renderGuide() {
   body.innerHTML = `<div class="sheet-head"><h2 id="guide-title">${tt.guideTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button></div>
     <p><b>${esc(tt.zodiacBadge)}</b><br>${esc(tt.zodiacNote)}</p>${tt.guideBody.map((p) => `<p>${esc(p)}</p>`).join('')}<p class="muted"><small>${esc(tt.set.about(meta))}</small></p>`;
   body.querySelector('[data-close]').addEventListener('click', () => $('#dlg-guide').close());
+}
+
+function renderSeasons() {
+  const tt = t();
+  const body = $('#seasons-body');
+  const cur = monthOf(todayKey());
+  let html = `<div class="sheet-head"><h2 id="seasons-title">${tt.seasonsTitle}</h2><button type="button" class="btn icon" data-close aria-label="${tt.close}">✕</button></div>
+    <p class="muted">${tt.seasonsHint}</p><div class="season-wrap"><table class="season"><caption class="sr">${tt.seasonsTitle}</caption>
+    <thead><tr><th scope="col"></th>${tt.months.map((m, i) => `<th scope="col"${i + 1 === cur ? ' class="cur"' : ''}>${m}</th>`).join('')}</tr></thead><tbody>`;
+  for (const e of Object.keys(C.ELEMENTS)) {
+    html += `<tr class="grp"><th colspan="13" scope="rowgroup">${icon(e)} ${tt.dayType[e]}</th></tr>`;
+    for (const c of CROPS.filter((x) => x.element === e)) {
+      html += `<tr class="el-${e}"><th scope="row">${settings.myCrops.includes(c.id) ? '🌱 ' : ''}${esc(c.name[settings.lang])}</th>`
+        + tt.months.map((m, i) => (c.months.includes(i + 1)
+          ? `<td class="on${i + 1 === cur ? ' cur' : ''}"><span class="sr">${m} ✓</span></td>`
+          : `<td${i + 1 === cur ? ' class="cur"' : ''}></td>`)).join('') + '</tr>';
+    }
+  }
+  body.innerHTML = `${html}</tbody></table></div>`;
+  body.querySelector('[data-close]').addEventListener('click', () => $('#dlg-seasons').close());
+}
+
+/** "Today: root until 13:43 → flower · Tomorrow: …" above every view. */
+function renderStrip() {
+  const tt = t();
+  const el = $('#strip');
+  const k0 = todayKey();
+  const parts = [];
+  for (const [k, label] of [[k0, tt.todayShort], [C.addDays(k0, 1), tt.tomorrow]]) {
+    if (!hasDay(k)) continue;
+    const d = day(k);
+    const types = d.signs.map((p, i) => `${icon(p.element)} ${tt.part[p.element]}${i ? ` <bdi>${fmtTime(p.start)}</bdi>` : ''}`).join(tt.dir === 'rtl' ? ' ← ' : ' → ');
+    const unf = d.unfavorable.map((w) => `⚠️ ${rng(fmtTimeOn(w.start, k), fmtTimeOn(w.end, k))}`).join(' ');
+    parts.push(`<button type="button" class="strip-day el-${d.mainElement}" data-key="${k}"><b>${label}</b> ${types}${unf ? ` <span class="strip-unf">${unf}</span>` : ''}</button>`);
+  }
+  el.innerHTML = parts.join('');
 }
 
 // ---------------------------------------------------------------- shell
@@ -724,6 +891,8 @@ async function render() {
   view.replaceWith(fresh);
   $('#title').textContent = title();
   document.querySelectorAll('[data-view]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.view === state.view)));
+  await ensureYears(yearOf(todayKey()), yearOf(C.addDays(todayKey(), 1)));
+  renderStrip();
   ({ hour: renderHour, day: renderDay, week: renderWeek, month: renderMonth, year: renderYear })[state.view](fresh);
   syncHash();
 }
@@ -764,13 +933,18 @@ function wire() {
   $('#next').addEventListener('click', () => step(1));
   $('#today').addEventListener('click', () => go(todayKey()));
   document.querySelectorAll('[data-view]').forEach((b) => b.addEventListener('click', () => setView(b.dataset.view)));
-  const openers = { finder: renderFinder, subscribe: renderSubscribe, settings: renderSettings, guide: renderGuide };
+  const openers = { finder: renderFinder, subscribe: renderSubscribe, settings: renderSettings, guide: renderGuide, seasons: renderSeasons };
   document.querySelectorAll('[data-open]').forEach((b) => b.addEventListener('click', () => {
     openers[b.dataset.open]();
     $(`#dlg-${b.dataset.open}`).showModal();
   }));
   document.querySelectorAll('dialog').forEach((d) => d.addEventListener('click', (e) => { if (e.target === d) d.close(); }));
   window.addEventListener('hashchange', () => { if (readHash()) render(); });
+  $('#print').addEventListener('click', () => window.print());
+  $('#strip').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-key]');
+    if (b) { state.date = b.dataset.key; openDay(b.dataset.key); }
+  });
   document.addEventListener('keydown', (e) => {
     if (e.target.closest('input, textarea, select, dialog') || e.ctrlKey || e.metaKey || e.altKey) return;
     if (e.key === 'PageUp') { e.preventDefault(); step(-1); }
@@ -784,6 +958,7 @@ async function main() {
   wire();
   $('#view').innerHTML = `<p>${t().loading}</p>`;
   await loadIndex();
+  await importTransfer();
   if (!readHash()) state.date = todayKey();
   await render();
   if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});

@@ -115,6 +115,29 @@ button, select, input, textarea { font: inherit; color: inherit; }
 main { padding: .5rem 1rem 2rem; outline: none; }
 .view { max-width: 1200px; margin: 0 auto; }
 
+/* ------------------------------------------------------------------ today / tomorrow */
+.strip { display: flex; flex-wrap: wrap; gap: .5rem; padding: .6rem 1rem 0; max-width: 1232px; margin: 0 auto; }
+.strip-day {
+  flex: 1 1 280px; text-align: start; border: 1px solid var(--c); border-inline-start-width: 6px; background: var(--soft);
+  border-radius: 10px; padding: .5rem .8rem; cursor: pointer; min-height: 44px;
+}
+.strip-unf { white-space: nowrap; }
+
+/* ------------------------------------------------------------------ seasons */
+dialog.sheet.wide { width: min(1000px, 100vw - 1.5rem); }
+.season-wrap { overflow-x: auto; }
+table.season { border-collapse: separate; border-spacing: 2px; width: 100%; font-size: .9rem; }
+.season th, .season td { padding: .2rem .35rem; }
+.season thead th { font-weight: 600; color: var(--muted); }
+.season thead th.cur { color: var(--primary-strong); text-decoration: underline; }
+.season tbody th { text-align: start; font-weight: 400; white-space: nowrap; width: 1%; padding-inline-end: .6rem; }
+.season tr.grp th { padding-top: .8rem; font-weight: 700; }
+.season td { background: var(--surface-2); border-radius: 4px; min-width: 1.6rem; height: 1.4rem; }
+.season td.on { background: var(--c); }
+.season td.cur { outline: 2px solid var(--primary-strong); outline-offset: -2px; }
+.chips.dim .chip { opacity: .6; }
+details summary { cursor: pointer; min-height: 32px; }
+
 /* ------------------------------------------------------------------ element colours */
 .el-earth { --c: var(--earth); --soft: var(--earth-soft); }
 .el-water { --c: var(--water); --soft: var(--water-soft); }
@@ -251,6 +274,9 @@ input[type="checkbox"] { width: 1.3rem; height: 1.3rem; accent-color: var(--prim
   .month { gap: 3px; }
   .cell { min-height: 78px; padding: .25rem; border-radius: 8px; }
   .cell .label { display: none; }
+  .print-btn { display: none; }
+  .strip { padding-top: .4rem; gap: .35rem; }
+  .strip-day { padding: .35rem .6rem; min-height: 40px; }
   .cell .icons { font-size: .9rem; }
   .cell .num { font-size: .95rem; }
   .views button { padding: .35rem .55rem; }
@@ -263,6 +289,22 @@ input[type="checkbox"] { width: 1.3rem; height: 1.3rem; accent-color: var(--prim
 .reduce-motion * { transition: none !important; animation: none !important; }
 
 @media print {
-  .topbar .tools, .toolbar .views, .nav-date .btn, .skip { display: none; }
-  .cell { box-shadow: none; border: 1px solid #999; }
+  @page { size: A4 landscape; margin: 10mm; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html { font-size: 11px; }
+  body { background: #fff; }
+  .topbar .tools, .toolbar .views, .nav-date .btn, .skip, .print-btn, .strip, .toast,
+  [data-speak], [data-ics], [data-print], [data-close] { display: none !important; }
+  .topbar { padding: 0 0 .3rem; background: none !important; color: #000; }
+  .toolbar { position: static; border: 0; padding: 0 0 .3rem; }
+  main { padding: 0; }
+  .cell { box-shadow: none; border: 1px solid #999; min-height: 0; height: 24mm; break-inside: avoid; }
+  .mini, .day-card { box-shadow: none; border: 1px solid #ccc; break-inside: avoid; }
+  .week .col { height: 150mm; }
+  /* With a day open, print just that day. */
+  body:has(dialog[open]) > :not(dialog[open]) { display: none !important; }
+  dialog[open] { position: static; display: block; width: auto; max-height: none; box-shadow: none; border-radius: 0; margin: 0; }
+  dialog[open]::backdrop { display: none; }
+  dialog[open] .sheet-body { max-height: none; overflow: visible; padding: 0; }
+  textarea { border: 1px solid #ccc; min-height: 3rem; }
 }

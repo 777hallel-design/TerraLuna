@@ -2,7 +2,7 @@
 // Usage: node scripts/build-ics.mjs [--from 2025] [--to 2028]
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { buildModel, ELEMENTS } from '../app/js/core.js';
-import { buildICS } from '../app/js/ics.js';
+import { buildICS, buildDailyICS } from '../app/js/ics.js';
 
 const arg = (name, def) => {
   const i = process.argv.indexOf(`--${name}`);
@@ -36,4 +36,8 @@ for (const lang of ['he', 'en']) {
     writeFileSync(file, buildICS(model, { ...f, from, to, lang }));
     console.log('wrote', file.pathname);
   }
+  // Daily summary in Israel time, with a reminder at 20:00 the evening before.
+  const file = new URL(`terraluna-daily-${lang}.ics`, outDir);
+  writeFileSync(file, buildDailyICS(model, { from, to, lang, tz: 'Asia/Jerusalem', reminder: 'evening' }));
+  console.log('wrote', file.pathname);
 }
